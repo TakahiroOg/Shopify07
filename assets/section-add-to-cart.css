@@ -1,0 +1,18 @@
+.products-inside .cta-wrapper {
+  padding-top: 20px;
+}
+.b-get-btn {
+  text-align: center;
+}
+button.get-btn {
+  font-size: 2rem;
+  text-transform: uppercase;
+  width: 100%;
+  max-width: 400px;
+  min-height: 60px;
+}
+@media screen and (min-width: 750px) {
+  .products-inside .cta-wrapper {
+    padding-top: 50px;
+  }
+}

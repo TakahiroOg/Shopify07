@@ -2,19 +2,6 @@
   "sections": {
     "1659606110b6f596ab": {
       "type": "image-banner",
-      "blocks": {
-        "16596061107b20de02-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "16596061107b20de02-0"
-      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/main-image-october2022-gift-box-mizu-japan_jpg_7d4beef5-3322-49c4-ae5c-fbcb69e57a94.jpg",
         "image_overlay_opacity": 0,
@@ -32,42 +19,11 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "title": {
-          "type": "title",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "caption": {
           "type": "text",
           "settings": {
             "text": "{{ product.metafields.descriptors.subtitle.value }}",
             "text_style": "subtitle"
-          }
-        },
-        "price": {
-          "type": "price",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "disabled": true,
-          "settings": {
-          }
-        },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
           }
         },
         "7c727d1b-a78e-4286-b7ee-eaa89ed26133": {
@@ -86,43 +42,6 @@
             "page": ""
           }
         },
-        "collapsible-row-1": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "Trditional Japanese Confectionaries",
-            "icon": "serving_dish",
-            "content": "<p>A selection of the finest <\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-2": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "HOME GOODS",
-            "icon": "ruler",
-            "content": "<p>Made by Japanese paper by hand<\/p>",
-            "page": ""
-          }
-        },
-        "collapsible-row-3": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "HANDMADE BOX",
-            "icon": "box",
-            "content": "<p>Made by Japanese paper by hand<\/p>",
-            "page": ""
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
         "5ceab50d-861e-4e16-a592-4c932a2acc39": {
           "type": "custom_liquid",
           "settings": {
@@ -131,18 +50,9 @@
         }
       },
       "block_order": [
-        "title",
         "caption",
-        "price",
-        "variant_picker",
-        "quantity_selector",
-        "description",
         "7c727d1b-a78e-4286-b7ee-eaa89ed26133",
         "collapsible-row-0",
-        "collapsible-row-1",
-        "collapsible-row-2",
-        "collapsible-row-3",
-        "share",
         "5ceab50d-861e-4e16-a592-4c932a2acc39"
       ],
       "settings": {
@@ -156,14 +66,11 @@
         "padding_bottom": 12
       }
     },
-    "166167001039222856": {
-      "type": "custom-liquid",
-      "disabled": true,
+    "add-to-cart": {
+      "type": "add-to-cart",
       "settings": {
-        "custom_liquid": "<div class=\"ac_sec\">\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/226b30a0ead1bfc4be1abbbf7725d761.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>JAPANESE TEA TIME<\/h1>\n      <p>Made by Japanese Paper by hand<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/caf64c53219d6e036231124117a81fcd.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>SNACKS<\/h1>\n      <p>Made by Japanese Paper by hand<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/2.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>HOMEGOODS<\/h1>\n      <p>Made by Japanese Paper by hand<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/32f7500bb8e26d92e86e604cd8d7be1d.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>HANDMADE BOX<\/h1>\n      <p>Made by Japanese Paper by hand<\/p>\n    <\/div>\n  <\/div>\n<\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16596078958ea5a7db": {
@@ -175,10 +82,9 @@
         "padding_bottom": 52
       }
     },
-    "1659609481555f6610": {
-      "type": "custom-liquid",
+    "products-inside": {
+      "type": "products-inside",
       "settings": {
-        "custom_liquid": "<div class=\"pro-box page-width\">\n\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/A1-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662113814\">\n<div class=\"acc\">\n\n<div class=\"acc-head\">Paper Weight <\/div>\n<div class=\"acc-content\">\n<p>\nCrane Themed Paper Weight \n<br>\nPRODUCT OF: Kyoto\n<br>\nPRODUCED BY: Kyukyodo\n<br>\n<br>\nLove at first sight when you behold this in person. A contemporay take on a traditional symbol of Japan, it's never out of place and is a joy to behold\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/B1-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662114678\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\">Hand Fan<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT :  Traditonal Handmade Summer Fan \n<br>\nPRODUCT OF: Kyoto\n<br>\nPRODUCED BY:  A variety of local artisans.\n<br>\n<br>\nDue to high demand of these extraordinary limited edition fans, the design of the fan delivered will be dependent on availability at the time of ordering. Thank you for your understanding.\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/C1-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662115177\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\"> Shiori<\/div>\n<div class=\"acc-content\">\n<p>\n\n<br>\nPRODUCT OF: Kyoto\n<br>\nPRODUCED BY: Fukui Asahido\n<br>\n<br>\nA unique collection of Kyoto - World Heritage Bookmarks. Each bookmark has an exquisitely drawn image of a famous Kyoto landmark. Keep them all for yourself or share them with friends and family. Either way they'll be cherished for years to come.\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/A2-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662113251\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\">Notari Notari<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT OF: Kyoto \n\n<br>\nFLAVOR: Savory\n<br>\nSUITABLE FOR VEGETARIANS: Yes \n<br>\nCOMMON ALLERGENS: Wheat, Soy\n<br>\nPRODUCED BY:: Buson-an\n<br>\n<br>\nA declicious collection of traditional rice crackers from a company that still procuces them in the traditional manner.\n*This mochi is called daifuku,\nor stuffed mochi. It's flavored\nwith chocolate and amaou strawberries.\nAmaou are grown in Fukuoka\nand referred to as \"\"The King of\nStrawberries\"\" for their delicious taste.*\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/B2-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662115602\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\">Azabu Karinto<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT OF: Tokyo \n\n<br>\nFLAVOR: Sweet\n<br>\nSUITABLE FOR VEGETARIANS: Yes \n<br>\nCOMMON ALLERGENS: Wheat, Milk, Sesame\n<br>\nPRODUCED BY:: Azabu Karinto\n<br>\n<br>\nDeep-fried snacks flavoured with brown sugar. Based in Tokyo, Azabu Karinto is known for the lines of people that form around the block to savor these delicacies.\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/C2-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662115676\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\">Wasabi Pistachios<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT OF: Kyoto \n\n<br>\nFLAVOR: Savory\n<br>\nSUITABLE FOR VEGETARIANS: Yes \n<br>\nCOMMON ALLERGENS: Wheat, Milk\n<br>\nPRODUCED BY:: Mametomi Honpo\n<br>\nKyoto Komamehan Wasabi Pistachios\n<br>\n<br>\nThese popular wasabi flavored bean sweets are packed with flavor and have a delightful a crunchy texture.\nWith some green tea, they make a perfect mid-afternoon treat.\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/A3-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662113251\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\">Koicha-Temari<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT OF: Kyoto \n\n<br>\nFLAVOR: Sweet\n<br>\nSUITABLE FOR VEGETARIANS: Yes \n<br>\nCOMMON ALLERGENS:None\n<br>\nPRODUCED BY:: Crochet\n\n<br>\n<br>\nCrochet is a candy store dating back 140-year specializing in traditional Kyoto candy.\nPreserving the recipes and techniques handed down to them, Crochet makes their candy 100% by hand.\nKoicha-Temari candies have an unforgettable and delighful matcha taste to them.\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/B3-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662116127\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\">Men Tou Ka<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT OF: Kyoto \n\n<br>\nFLAVOR: Sweet\n<br>\nSUITABLE FOR VEGETARIANS: Yes \n<br>\nCOMMON ALLERGENS:None\n<br>\nPRODUCED BY:: Zarame\n\n<br>\n<br>\nJapanese cotton candy from the heart of Kyoto's famous Arashiyama district. Imagine the cotton candy you had as a child and put a Japanese twist on it. Heavenly!\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/C3-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662116341\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\">Waffle Cookies<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT OF: Kyoto \n\n<br>\nFLAVOR: Sweet\n<br>\nSUITABLE FOR VEGETARIANS: Yes \n<br>\nCOMMON ALLERGENS:Wheat, Milk, Soy, Eggs\n<br>\nPRODUCED BY:: Crochet\n\n<br>\n<br>\n*TEMPORARY TEXT* *This mochi is called daifuku,\nor stuffed mochi. It's flavored\nwith chocolate and amaou strawberries.\nAmaou are grown in Fukuoka\nand referred to as \"\"The King of\nStrawberries\"\" for their delicious taste.*\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/A4-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662113251\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\"> Wasanbon<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT OF: Kyoto \n\n<br>\nFLAVOR: Sweet\n<br>\nSUITABLE FOR VEGETARIANS: Yes \n<br>\nCOMMON ALLERGENS:None\n<br>\nPRODUCED BY:: Kyo Kaera\n\n<br>\n<br>\nWasanbon is a premium candy originally produced in Kagawa on the island of Shikoku. It has a 400 years old history and is still very popular today as an adorable confectionary. Savor the refreshing sweetness that is slowly released.\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/B4-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662116649\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\">Hon Warabimochi<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT OF: Kyoto \n\n<br>\nFLAVOR: Sweet\n<br>\nSUITABLE FOR VEGETARIANS: Yes \n<br>\nCOMMON ALLERGENS:Soy\n<br>\nPRODUCED BY:: Oimatsu\n\n<br>\n<br>\nWarabi-mochi is a  Japanese sweet made of bracken starch. It is often coated with toasted soybean flour and it has a jelly-like chewy texture.\nIt is especially popular during the summer season and pairs well with sensha tea.\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n<div class=\"box-inn\">\n<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/C4-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662117009\">\n<div class=\"acc\">\n\n\n<div class=\"acc-head\">Sencha Tea<\/div>\n<div class=\"acc-content\">\n<p>\nPRODUCT OF: Kyoto \n<br>\nFLAVOR: Green tea\n<br>\nSUITABLE FOR VEGETARIANS: Yes \n<br>\nCOMMON ALLERGENS: N\/A\n<br>\nPRODUCED BY:: Ippodo\n\n<br>\n<br>\nSen means 'infuse', and sencha is tea that is infused in water. Sencha is consumed warm and at all hours of the day in Japan. With low levels of caffeine, it can provide a pleasant boost without keeping you up at night.\n<\/p>\n<\/div>\n<\/div>\n<\/div>\n\n<\/div>\n\n\n<script>\n$(document).ready(function() {\n$('.box-inn .acc:nth-child(1) .acc-head').addClass('active');\n$('.box-inn .acc:nth-child(1) .acc-content').slideDown();\n$('.acc-head').on('click', function() {\n    if($(this).hasClass('active')) {\n      $(this).siblings('.acc-content').slideUp();\n      $(this).removeClass('active');\n    }\n    else {\n      $('.acc-content').slideUp();\n      $('.acc-head').removeClass('active');\n      $(this).siblings('.acc-content').slideToggle();\n      $(this).toggleClass('active');\n    }\n});     \n});\n<\/script>\n<div style=\"text-align: center;\">",
         "color_scheme": "accent-1",
         "padding_top": 100,
         "padding_bottom": 100
@@ -214,9 +120,9 @@
   "order": [
     "1659606110b6f596ab",
     "main",
-    "166167001039222856",
+    "add-to-cart",
     "16596078958ea5a7db",
-    "1659609481555f6610",
+    "products-inside",
     "product-recommendations",
     "16596223202b7216df"
   ]
