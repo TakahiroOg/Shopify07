@@ -1,0 +1,248 @@
+{
+  "sections": {
+    "166045115415dafe64": {
+      "type": "image-with-text",
+      "blocks": {
+        "1660451154226f9173-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kyoto, Japan",
+            "heading_size": "h1"
+          }
+        },
+        "1660451154226f9173-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mizu Japan specializes in unique, curated-to-order, artisanal gift boxes for you or a loved one.<\/p><p>From the cultural and spiritual heart of Japan, immerse yourself in an authentic Japanese experience from the comfort of your home.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1660451154226f9173-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "https:\/\/mizu-japan.com\/products\/october-box"
+          }
+        }
+      },
+      "block_order": [
+        "1660451154226f9173-0",
+        "1660451154226f9173-1",
+        "1660451154226f9173-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/IMG_5590_2.jpg",
+        "height": "adapt",
+        "desktop_image_width": "large",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 84,
+        "padding_bottom": 84
+      }
+    },
+    "1657347429e10a4d6b": {
+      "type": "multicolumn",
+      "blocks": {
+        "1657347429059942fa-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG_9160_16ff859c-cf5b-43d5-b43e-f812da7a1e48.jpg",
+            "title": "September Nagatsuki Selection",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/mizu-japan.com\/products\/september-selections"
+          }
+        },
+        "1657347429059942fa-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/main-image-october2022-gift-box-mizu-japan_jpg_659f36ac-3266-4966-a8b3-b3f55113a9ed.jpg",
+            "title": "August Hazuki Selection",
+            "text": "",
+            "link_label": "",
+            "link": "https:\/\/mizu-japan.com\/products\/august-selections"
+          }
+        }
+      },
+      "block_order": [
+        "1657347429059942fa-0",
+        "1657347429059942fa-1"
+      ],
+      "settings": {
+        "title": "Past Selections",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "16573478657360bcaa": {
+      "type": "rich-text",
+      "blocks": {
+        "1657347865ec85499e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p> Treat Yourself or a Loved One <\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1657347865ec85499e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mizu Japan offers you not only the most exquisite Japanese confectionery but delightful lifestyle goods as well.<br\/>Your personal shopper curates each individual gift box to order to guarantee the very finest selection and presentation.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1657347865ec85499e-0",
+        "1657347865ec85499e-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1659951699d2820ed5": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1657348388bf69ba85": {
+      "type": "rich-text",
+      "blocks": {
+        "16573483881a696ec1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Instagram<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16573483881a696ec1-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": false,
+        "padding_top": 40,
+        "padding_bottom": 100
+      }
+    },
+    "16599562149f7e8ecd": {
+      "type": "apps",
+      "blocks": {
+        "861d4e73-9a96-47fe-982f-e548139c2527": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "861d4e73-9a96-47fe-982f-e548139c2527"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "instagrid-1659950898": {
+      "type": "instagrid",
+      "settings": {
+      }
+    },
+    "166044990474ae38b7": {
+      "type": "rich-text",
+      "blocks": {
+        "16604499048c49fa3c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our Services<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16604499048c49fa3c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mizu Japan began as an invitation-only gift box service offered to select customers across Japan.<br\/><br\/>We now provide our service worldwide to those with sophisticated tastes who desire a unique experience to complement their lifestyles.<br\/><br\/>Your personal shopper spares no expense when selecting your gift box contents and collaborates closely with local suppliers and craftspeople of artisanal foods and lifestyle goods.<\/p>"
+          }
+        },
+        "16604499048c49fa3c-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP NOW",
+            "button_link": "https:\/\/mizu-japan.com\/products\/october-box",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16604499048c49fa3c-0",
+        "16604499048c49fa3c-1",
+        "16604499048c49fa3c-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165771547980559015": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"testimonial-heading\"><h2>What People Are Saying<\/h2><\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 52,
+        "padding_bottom": 0
+      }
+    },
+    "1657712642c6bece98": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"testimonial-sec\">\n<div class=\"testimonial-box\">\n   <h3>Laurene, USA.<\/h3>\n   <h4>July 2022<\/h4>\n   <p>My husband and I were thoroughly enchanted with Japan when we visited. With travel being difficult in recent times Mizu-Japan satiated my desire to experience Japan firsthand. Their gift boxes bring wonderful memories of the sights and sounds of Japan into my home. Thank you and we're looking forward to next month!\n<\/p>\n<\/div>\n\n<div class=\"testimonial-box active\">\n   <h3>Sophie, Singapore<\/h3>\n   <h4>August 2022<\/h4>\n   <p>I recently received my first gift box from Mizu Japan, and it was everything I had hoped for. The quality and authenticity of their gift boxes are without parallel. The delicate flower vase and mamezaras are delightful! As for the confectionaries... they were simply delectable!\n<\/p>\n<\/div>\n\n<div class=\"testimonial-box\">\n   <h3>Akemi, Taiwan<\/h3>\n   <h4>July 2022<\/h4>\n   <p>Having moved to Taiwan from Japan 10 years ago I naturally began to miss certain aspects of home. With Mizu Japan however, I can now indulge in the best my country has to offer. Each month's delivery is going to be my 'me time' where I can turn down the lights, relax and savor the flavors of home.<\/p>\n<\/div>\n\n<div class=\"testimonial-box active\">\n   <h3>Diane, USA<\/h3>\n   <h4>August 2022<\/h4>\n   <p>I've been a lover of all things Japanese ever since I can recall. There are plenty of Japanese restaurants and stores in the U.S. now. Mizu Japan, however, offers something unique, a truly authentic experience which I look forward to every month. Even my Japanese friends often haven't even heard of the items they provide!<\/p>\n<\/div>\n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "166045115415dafe64",
+    "1657347429e10a4d6b",
+    "16573478657360bcaa",
+    "1659951699d2820ed5",
+    "1657348388bf69ba85",
+    "16599562149f7e8ecd",
+    "instagrid-1659950898",
+    "166044990474ae38b7",
+    "165771547980559015",
+    "1657712642c6bece98"
+  ]
+}
