@@ -1222,3 +1222,23 @@ a.product__text {
   display: block;
   max-width: 100%;
 }
+
+.product-slider {
+  margin: 0 25px;
+  display: none;
+}
+.product-slider.slick-initialized {
+  display: block;
+}
+.slide-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -50px;
+  cursor: pointer;
+}
+.prev-arrow {
+  left: -25px;
+}
+.next-arrow {
+  right: -25px;
+}

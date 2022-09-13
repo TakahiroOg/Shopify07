@@ -47,15 +47,9 @@
           </div>
         {%- endfor -%}
       </div>
-      {% comment %} <media-gallery id="MediaGallery-{{ section.id }}" role="region" {% if section.settings.enable_sticky_info %}class="product__media-gallery"{% endif %} aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="{{ section.settings.gallery_layout }}"> {% endcomment %}
-
-  
-        {% comment %} <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div> {% endcomment %}
-        {% comment %} {%- liquid
-            assign media_width = 0.65
-        -%} {% endcomment %}
-         {% comment %} START {% endcomment %}
-        {% comment %} <slider-component id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter">
+      {% comment %} <media-gallery id="MediaGallery-{{ section.id }}" role="region" {% if section.settings.enable_sticky_info %}class="product__media-gallery"{% endif %} aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="{{ section.settings.gallery_layout }}">  
+        <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
+        <slider-component id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter">
           <a class="skip-to-content-link button visually-hidden quick-add-hidden" href="#ProductInfo-{{ section.id }}">
             {{ "accessibility.skip_to_product_info" | t }}
           </a>
@@ -215,10 +209,8 @@
             </ul>
             <button type="button" class="slider-button slider-button--next{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}" data-step="3">{% render 'icon-caret' %}</button>
           </slider-component>
-        {%- endif -%}  {% endcomment %}
-
-        {% comment %} END {% endcomment %}
-      {% comment %} </media-gallery> {% endcomment %}
+        {%- endif -%} 
+      </media-gallery> {% endcomment %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
@@ -569,7 +561,6 @@
       </div>
     </div>
   </div>
-
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
       <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
@@ -627,7 +618,8 @@
     $(document).ready(function(){
       $('.product-slider').slick({
         dots: true,
-        {% comment %} arrows:true {% endcomment %}
+        prevArrow: '<img src="{{ 'left-arrow.png' | asset_img_url: '15x' }}" class="slide-arrow prev-arrow">',
+        nextArrow: '<img src="{{ 'right-arrow.png' | asset_img_url: '15x' }}" class="slide-arrow next-arrow">'
       });
     });
     </script>
@@ -708,7 +700,9 @@
     }
   </script>
 </section>
-<hr>
+<div style="max-width:1280px;margin:auto;">
+  <hr>
+</div>
 {% schema %}
 {
   "name": "t:sections.main-product.name",
