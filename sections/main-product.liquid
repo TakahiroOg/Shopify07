@@ -33,7 +33,21 @@
 
   <div class="product product--{{ section.settings.media_size }} product--{{ section.settings.gallery_layout }} grid grid--1-col {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
     <div class="grid__item product__media-wrapper">
-      <media-gallery id="MediaGallery-{{ section.id }}" role="region" {% if section.settings.enable_sticky_info %}class="product__media-gallery"{% endif %} aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="{{ section.settings.gallery_layout }}">
+      <div class="product-slider">
+        {%- for media in product.media -%}
+          <div>
+            <img srcset="
+              {{ media | img_url: '1080x' }} 1080w,
+              {{ media | img_url: '720x' }} 767w,
+              {{ media | img_url: '480x' }} 480w"
+              sizes="(min-width: 480px) 1440px, 1080px, 767px, 480px"
+              alt="{{ media.alt | escape }}"
+              border="0"
+              data-media-id="{{ media.id }}" loading="lazy"/>
+          </div>
+        {%- endfor -%}
+      </div>
+      {% comment %} <media-gallery id="MediaGallery-{{ section.id }}" role="region" {% if section.settings.enable_sticky_info %}class="product__media-gallery"{% endif %} aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="{{ section.settings.gallery_layout }}">  
         <div id="GalleryStatus-{{ section.id }}" class="visually-hidden" role="status"></div>
         <slider-component id="GalleryViewer-{{ section.id }}" class="slider-mobile-gutter">
           <a class="skip-to-content-link button visually-hidden quick-add-hidden" href="#ProductInfo-{{ section.id }}">
@@ -195,8 +209,8 @@
             </ul>
             <button type="button" class="slider-button slider-button--next{% if media_count <= 3 %} small-hide{% endif %}{% if media_count <= 4 %} medium-hide large-up-hide{% endif %}" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="GalleryThumbnails-{{ section.id }}" data-step="3">{% render 'icon-caret' %}</button>
           </slider-component>
-        {%- endif -%}
-      </media-gallery>
+        {%- endif -%} 
+      </media-gallery> {% endcomment %}
     </div>
     <div class="product__info-wrapper grid__item{% if settings.page_width > 1400 and section.settings.media_size == "small" %} product__info-wrapper--extra-padding{% endif %}">
       <div id="ProductInfo-{{ section.id }}" class="product__info-container{% if section.settings.enable_sticky_info %} product__info-container--sticky{% endif %}">
@@ -547,7 +561,6 @@
       </div>
     </div>
   </div>
-
   <product-modal id="ProductModal-{{ section.id }}" class="product-media-modal media-modal">
     <div class="product-media-modal__dialog" role="dialog" aria-label="{{ 'products.modal.label' | t }}" aria-modal="true" tabindex="-1">
       <button id="ModalClose-{{ section.id }}" type="button" class="product-media-modal__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
@@ -601,6 +614,15 @@
     </script>
     <script src="{{ 'product-model.js' | asset_url }}" defer></script>
   {%- endif -%}
+  <script type="text/javascript">
+    $(document).ready(function(){
+      $('.product-slider').slick({
+        dots: true,
+        prevArrow: '<img src="{{ 'left-arrow.png' | asset_img_url: '15x' }}" class="slide-arrow prev-arrow">',
+        nextArrow: '<img src="{{ 'right-arrow.png' | asset_img_url: '15x' }}" class="slide-arrow next-arrow">'
+      });
+    });
+    </script>
 
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -678,7 +700,9 @@
     }
   </script>
 </section>
-
+<div style="max-width:1280px;margin:auto;">
+  <hr>
+</div>
 {% schema %}
 {
   "name": "t:sections.main-product.name",
