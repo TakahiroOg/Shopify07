@@ -372,31 +372,7 @@ ul#Slider-template--16289320403164__1658750301340e693b {
 .past-box-sec img {
   max-width: 100%;
 }
-@media screen and (max-width: 767px) {
-  .past-box-sec {
-    grid-template-columns: auto;
-    grid-column-gap: 20px;
-  }
-  .pro-box {
-    grid-template-columns: auto;
-  }
-  .pas-box-page-sec h3 {
-    font-size: 30px;
-  }
-  .pas-box-page-sec h4 {
-    font-size: 20px;
-  }
-  .past-box-banner h1 {
-    font-size: 35px;
-  }
-  .past-box-banner {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-  }
-  .past-box h4 {
-    margin-bottom: 20px !important;
-  }
-}
+
 .cus-pro-image img {
   width: 100%;
   height: auto;
@@ -422,23 +398,7 @@ p.book-btn {
 .pas-box-page a {
   text-decoration: none;
 }
-.past-box-banner {
-  background-image: url(https://cdn.shopify.com/s/files/1/0630/3157/4748/files/AdobeStock_485531171_-_Copy.jpg);
-  background-size: cover;
-  padding-top: 25vh;
-  padding-bottom: 25vh;
-  text-align: center;
-  background-position: center center;
-  object-fit: fill;
-  background-repeat: no-repeat;
-}
-.past-box-banner h1 {
-  color: #133362;
-  font-weight: 900;
-  font-size: 50px;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-}
+
 /* product page end*/
 
 .slick-next.slick-arrow {

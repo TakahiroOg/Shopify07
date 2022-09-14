@@ -1,0 +1,50 @@
+.past-box-banner {
+  background-size: cover;
+  padding-top: 23vh;
+  padding-bottom: 23vh;
+  background-position: center bottom 25%;
+  object-fit: fill;
+  background-repeat: no-repeat;
+}
+.past-box-banner h1 {
+  color: #133362;
+  font-weight: 900;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+.banner-title-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .past-box-sec {
+    grid-template-columns: auto;
+    grid-column-gap: 20px;
+  }
+  .pro-box {
+    grid-template-columns: auto;
+  }
+  .pas-box-page-sec h3 {
+    font-size: 30px;
+  }
+  .pas-box-page-sec h4 {
+    font-size: 20px;
+  }
+  .past-box-banner h1 {
+    font-size: 35px;
+  }
+  .past-box-banner {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+  }
+  .past-box h4 {
+    margin-bottom: 20px !important;
+  }
+}
+@media screen and (min-width: 768px) {
+  .banner-title-wrapper {
+    text-align: right;
+  }
+}
