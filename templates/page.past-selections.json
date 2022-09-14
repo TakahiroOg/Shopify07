@@ -1,20 +1,10 @@
 {
   "sections": {
     "main": {
-      "type": "main-page",
-      "disabled": true,
+      "type": "past-selections-banner",
       "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
-    "165969985324e92b15": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"past-box-banner\">\n<h1>Past Selection<\/div>\n<\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
+        "banner-img": "shopify:\/\/shop_images\/past-selection-page_-image-main-mizu-japan.jpg",
+        "banner-title": "Past selections"
       }
     },
     "1659434366385eada9": {
@@ -69,7 +59,6 @@
   },
   "order": [
     "main",
-    "165969985324e92b15",
     "1659434366385eada9",
     "16596982518c3eae10",
     "16596983789347eba1",
