@@ -554,17 +554,6 @@ div#insta-feed a:nth-child(10) {
   text-decoration: none;
 }
 
-.ac_sec_mid {
-  display: flex;
-  align-items: center;
-  margin-bottom: 1rem;
-}
-
-.icon_left_sec img {
-  width: 100%;
-  max-width: 40px;
-}
-
 .text_right_sec h1 {
   font-size: 15px;
   margin: 0;
@@ -575,9 +564,6 @@ div#insta-feed a:nth-child(10) {
 .text_right_sec p {
   font-size: 13px;
   margin: 0;
-}
-.icon_left_sec {
-  margin-right: 2rem;
 }
 #ProductInfo-template--16335068954844__main .product__text {
   font-size: 18px;

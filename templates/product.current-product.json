@@ -19,6 +19,16 @@
     "main": {
       "type": "main-product",
       "blocks": {
+        "c3f3b92a-769e-4dff-a720-fd065f0bebe1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "b8d28b0a-ba74-460f-add4-51d1f971c073": {
+          "type": "price",
+          "settings": {
+          }
+        },
         "caption": {
           "type": "text",
           "settings": {
@@ -33,16 +43,6 @@
             "text_style": "body"
           }
         },
-        "collapsible-row-0": {
-          "type": "collapsible_tab",
-          "disabled": true,
-          "settings": {
-            "heading": "",
-            "icon": "none",
-            "content": "",
-            "page": ""
-          }
-        },
         "5ceab50d-861e-4e16-a592-4c932a2acc39": {
           "type": "custom_liquid",
           "settings": {
@@ -51,18 +51,15 @@
         }
       },
       "block_order": [
+        "c3f3b92a-769e-4dff-a720-fd065f0bebe1",
+        "b8d28b0a-ba74-460f-add4-51d1f971c073",
         "caption",
         "7c727d1b-a78e-4286-b7ee-eaa89ed26133",
-        "collapsible-row-0",
         "5ceab50d-861e-4e16-a592-4c932a2acc39"
       ],
       "settings": {
-        "enable_sticky_info": true,
-        "gallery_layout": "thumbnail_slider",
+        "product-title": "October Gift Box",
         "media_size": "large",
-        "mobile_thumbnails": "hide",
-        "hide_variants": false,
-        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
       }
