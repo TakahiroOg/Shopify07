@@ -1,0 +1,79 @@
+<section id="ProductIntro-{{ section.id }}" data-section="{{ section.id }}">
+
+  {%- style -%}
+    .cus-product-con {
+      padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+      padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+    }
+    @media screen and (min-width: 750px) {
+      .cus-product-con {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+      }
+    }
+  {%- endstyle -%}
+  <div class="cus-pro-image">
+    {% if section.settings.use_featured_image %}
+      {{ product.featured_image | image_url: width: 1920 | image_tag }}
+    {% elsif section.settings.product_banner_img %}
+      {{ section.settings.product_banner_img | image_url: width: 1920 | image_tag }}
+    {% endif %}
+  </div>
+  <div class="cus-product-con page-width">
+    <div class="product-title">
+      {% if section.settings.product_title != empty %}
+        <h1>{{ section.settings.product_title }}</h1>
+      {% else %}
+        <h1>{{ product.title }}</h1>
+      {% endif %} 
+    </div>
+  <div class="product-desc">
+    {{ product.description }}
+  </div> 
+  </div>
+</section>
+{% schema %}
+{
+  "name": "Intro",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "product_banner_img",
+      "label": "product banner image"
+    },
+    {
+      "type": "checkbox",
+      "id": "use_featured_image",
+      "label": "Use featured image as a banner",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "product_title",
+      "label": "Product title"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 52
+    }
+  ]
+}
+{% endschema %}
