@@ -1247,7 +1247,7 @@ a.product__text {
   text-align: center;
   color: rgb(var(--color-base-accent-2));
   margin-bottom: 0;
-  letter-spacing: .15rem;
+  letter-spacing: 0.15rem;
 }
 .current-product .price {
   text-align: center;

@@ -283,16 +283,25 @@ ul#Slider-template--16289320403164__1658750301340e693b {
 /* Fumizuki Section End*/
 
 /* Product page Start */
-
-.pro-box {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  justify-content: space-around;
-  grid-column-gap: 30px;
-  grid-row-gap: 30px;
-  padding-bottom: 20px;
+@media screen and (min-width: 750px) {
+  .products-inside {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .pro-box {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-around;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-bottom: 20px;
+  }
 }
-
+@media screen and (min-width: 1000px) {
+  .pro-box {
+    grid-template-columns: auto auto auto;
+  }
+}
 .box-inn img {
   width: 100%;
 }
