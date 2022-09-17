@@ -4,6 +4,9 @@
     padding-left: 0 !important;
     padding-right: 0 !important;
   }
+  .footer-block--menu ul li {
+    display: inline-block;
+  }
 }
 body {
   font-size: 19px !important;
@@ -45,15 +48,8 @@ nav.header__inline-menu li {
 .footer__content-bottom {
   display: none;
 }
-.footer-block--menu ul li {
-  display: inline-block;
-}
 .footer-block--menu ul {
   text-align: right;
-}
-.footer-block--menu ul li a {
-  font-size: 17px !important;
-  font-weight: 400;
 }
 .cus-social .list-social__item .icon {
   height: 5rem;
