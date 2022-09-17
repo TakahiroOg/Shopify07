@@ -41,21 +41,20 @@
 
 {% comment %} Footer Above Section Start {% endcomment %}
 {%- if section.blocks.size > 0 -%}       
-          {%- for block in section.blocks -%}
-            <div class="top_footer">
-              
-            {%- if block.settings.heading != blank -%}
-                <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
-              {%- endif -%}
-             {%- case block.type -%}
-                {%- when 'text' -%}
-                  <div class="footer-block__details-content rte">
-                    {{ block.settings.subtext }}
-                  </div>  
-               {%- endcase -%}
-            </div>         
-          {%- endfor -%}
-      {%- endif -%}
+    {%- for block in section.blocks -%}
+      <div class="top_footer">
+      {%- if block.settings.heading != blank -%}
+          <h2 class="footer-block__heading">{{- block.settings.heading | escape -}}</h2>
+        {%- endif -%}
+        {%- case block.type -%}
+        {%- when 'text' -%}
+          <div class="footer-block__details-content rte">
+            {{ block.settings.subtext }}
+          </div>  
+        {%- endcase -%}
+      </div>         
+    {%- endfor -%}
+{%- endif -%}
 {% comment %} Footer Above Section End {% endcomment %}
       
 
@@ -96,9 +95,7 @@
                       {%- endfor -%}
                     </ul>
               
-				<!-- Payment icon Custom Start -->              
-              	{% include 'payment-icon-footer' %} 
-              	<!-- Payment icon Custom End -->
+              	  {% include 'payment-icon-footer' %} 
               
                   {%- endif -%}
                 {%- when 'image' -%}
