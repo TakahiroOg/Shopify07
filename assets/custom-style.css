@@ -183,15 +183,14 @@ div#Banner-template--16212336672988__16573486482bb6382c h2.banner__heading.h2 {
 
 .testimonial-heading {
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
-.section-template--16212336672988__165771547980559015-padding
-  .testimonial-heading
-  h2 {
-  font-size: 40px;
-  text-align: center;
-  display: block;
+.testimonial-heading h2 {
+  font-size: 4rem;
   color: #000000;
+  position: relative;
 }
 
 .testimonial-heading h2:before {
@@ -199,8 +198,8 @@ div#Banner-template--16212336672988__16573486482bb6382c h2.banner__heading.h2 {
   font-size: 3em;
   opacity: 0.5;
   position: absolute;
-  bottom: -20px;
-  right: 850px;
+  bottom: -30px;
+  left: -110px;
   color: #00000082;
 }
 
@@ -333,7 +332,7 @@ ul#Slider-template--16289320403164__1658750301340e693b {
   grid-column-gap: 20px;
 }
 .product-title h1 {
-  color: #133362;
+  color: rgb(var(--color-base-accent-1));
   font-size: 35px;
   font-weight: bold;
   margin-top: 0;
@@ -345,9 +344,16 @@ ul#Slider-template--16289320403164__1658750301340e693b {
 } */
 .past-box h4 {
   margin: 0px;
-  font-size: 20px;
+  font-size: 2.5rem;
   line-height: 1.7em;
   font-weight: 700;
+  color: rgb(var(--color-base-accent-1));
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 749px) {
+  .past-box h4 {
+    font-size: 2rem;
+  }
 }
 .pas-box-page-sec h3 {
   text-align: right;
@@ -394,11 +400,6 @@ p.book-btn {
   margin-bottom: 70px;
   border-top: 3px solid #999;
   padding-top: 90px;
-}
-.past-box h4 {
-  color: #133362;
-  font-size: 25px;
-  letter-spacing: 2px;
 }
 .pas-box-page a {
   text-decoration: none;

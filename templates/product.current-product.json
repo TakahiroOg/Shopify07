@@ -58,7 +58,8 @@
         "5ceab50d-861e-4e16-a592-4c932a2acc39"
       ],
       "settings": {
-        "product-title": "October Gift Box",
+        "product-title": "November Gift Box",
+        "divider-top-margin": 20,
         "media_size": "large",
         "padding_top": 36,
         "padding_bottom": 12
@@ -74,7 +75,7 @@
     "16596078958ea5a7db": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"cus-product-con page-width\">\n   <h3>Fumizuki<\/h3>\n    <div class=\"product-title\">    \n<h1>{{ product.title }}<\/h1>\n  <\/div>\n<div class=\"product-desc\">\n    {{ product.description }}\n  <\/div> \n<\/div>",
+        "custom_liquid": "<div class=\"cus-product-con page-width\">\n   <h3>Shimotsuki<\/h3>\n    <div class=\"product-title\">    \n<h1>{{ product.title }}<\/h1>\n  <\/div>\n<div class=\"product-desc\">\n    {{ product.description }}\n  <\/div> \n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 52,
         "padding_bottom": 52
