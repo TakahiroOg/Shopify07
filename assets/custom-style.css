@@ -182,7 +182,6 @@ div#Banner-template--16212336672988__16573486482bb6382c h2.banner__heading.h2 {
 }
 
 .testimonial-heading {
-  position: relative;
   display: flex;
   justify-content: center;
 }
@@ -190,17 +189,34 @@ div#Banner-template--16212336672988__16573486482bb6382c h2.banner__heading.h2 {
 .testimonial-heading h2 {
   font-size: 4rem;
   color: #000000;
+}
+
+.testimonial-heading h2 span {
   position: relative;
 }
 
-.testimonial-heading h2:before {
+.testimonial-heading h2 span:before {
   content: "W";
   font-size: 3em;
   opacity: 0.5;
   position: absolute;
-  bottom: -30px;
-  left: -110px;
+  bottom: -25px;
+  right: -19%;
   color: #00000082;
+}
+
+@media screen and (max-width: 469px) {
+  .testimonial-heading h2 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0;
+    max-width: 300px;
+  }
+  .testimonial-heading h2 span:before {
+    font-size: 2.5em;
+    right: -8%;
+    bottom: -14px;
+  }
 }
 
 .testimonial-sec .testimonial-box.active:after {

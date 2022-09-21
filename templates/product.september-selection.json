@@ -98,17 +98,17 @@
         "13be08d8-9019-4b14-a192-99eb633dab03": {
           "type": "product",
           "settings": {
-            "product_title": "September Selection",
-            "product": "september-selection",
-            "product_img": "shopify:\/\/shop_images\/sept.jpg"
+            "product_title": "August Selection",
+            "product": "august-selection",
+            "product_img": "shopify:\/\/shop_images\/july_sec.jpg"
           }
         },
         "9d6f3268-1f10-495e-a520-be84ceb11f21": {
           "type": "product",
           "settings": {
-            "product_title": "August Selection",
-            "product": "august-selection",
-            "product_img": "shopify:\/\/shop_images\/july_sec.jpg"
+            "product_title": "October Selection",
+            "product": "october-selection",
+            "product_img": "shopify:\/\/shop_images\/aug.jpg"
           }
         }
       },
