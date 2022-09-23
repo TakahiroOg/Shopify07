@@ -92,14 +92,6 @@
     "past-selection": {
       "type": "past-selection",
       "blocks": {
-        "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
-          "type": "product",
-          "settings": {
-            "product_title": "September Selection",
-            "product": "september-selection",
-            "product_img": "shopify:\/\/shop_images\/sept.jpg"
-          }
-        },
         "f594ad3a-29d0-4df6-8063-51efa21e1308": {
           "type": "product",
           "settings": {
@@ -107,11 +99,19 @@
             "product": "october-selection",
             "product_img": "shopify:\/\/shop_images\/aug.jpg"
           }
+        },
+        "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
+          "type": "product",
+          "settings": {
+            "product_title": "September Selection",
+            "product": "september-selection",
+            "product_img": "shopify:\/\/shop_images\/sept.jpg"
+          }
         }
       },
       "block_order": [
-        "4dffe16a-83f1-4d44-9720-2e7e59bba804",
-        "f594ad3a-29d0-4df6-8063-51efa21e1308"
+        "f594ad3a-29d0-4df6-8063-51efa21e1308",
+        "4dffe16a-83f1-4d44-9720-2e7e59bba804"
       ],
       "settings": {
         "padding_top": 88,

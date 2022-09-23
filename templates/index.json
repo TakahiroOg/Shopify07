@@ -212,7 +212,7 @@
     "165771547980559015": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"testimonial-heading\"><h2>What People Are Saying<\/h2><\/div>",
+        "custom_liquid": "<div class=\"testimonial-heading\"><h2><span>W<\/span>hat People Are Saying<\/h2><\/div>",
         "color_scheme": "background-1",
         "padding_top": 52,
         "padding_bottom": 0
