@@ -21,7 +21,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "https:\/\/mizu-japan.com\/products\/october-box"
+            "button_link": "shopify:\/\/products\/november-selection"
           }
         }
       },
