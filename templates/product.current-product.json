@@ -72,23 +72,6 @@
         "padding_bottom": 20
       }
     },
-    "16639188127dd3526d": {
-      "type": "apps",
-      "blocks": {
-        "83dd116e-287d-4ca6-9569-72411d7426fa": {
-          "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
-          "settings": {
-            "product": "{{product}}"
-          }
-        }
-      },
-      "block_order": [
-        "83dd116e-287d-4ca6-9569-72411d7426fa"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "16596078958ea5a7db": {
       "type": "custom-liquid",
       "settings": {
@@ -140,7 +123,6 @@
     "1659606110b6f596ab",
     "main",
     "add-to-cart",
-    "16639188127dd3526d",
     "16596078958ea5a7db",
     "products-inside",
     "past-selection"
