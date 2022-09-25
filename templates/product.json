@@ -2,10 +2,56 @@
   "sections": {
     "main": {
       "type": "main-product-backup",
-      "blocks": {},
-      "block_order": [],
-      "settings": {}
+      "blocks": {
+        "f334fc14-f4ad-4ded-bcbd-472c13ba81e4": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "85437f24-6c6f-4b6e-ad43-0c6a5f5f5e9e": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "3f2298a7-f7fc-4e46-a403-4c38aeec8c73": {
+          "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "116e18f0-ccd9-4960-bcd1-20b0c4b6630c": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "a11eca51-0305-4f19-b9b7-986968dc86a5": {
+          "type": "description",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "f334fc14-f4ad-4ded-bcbd-472c13ba81e4",
+        "85437f24-6c6f-4b6e-ad43-0c6a5f5f5e9e",
+        "3f2298a7-f7fc-4e46-a403-4c38aeec8c73",
+        "116e18f0-ccd9-4960-bcd1-20b0c4b6630c",
+        "a11eca51-0305-4f19-b9b7-986968dc86a5"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "stacked",
+        "media_size": "large",
+        "mobile_thumbnails": "hide",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
-  "order": ["main"]
+  "order": [
+    "main"
+  ]
 }
