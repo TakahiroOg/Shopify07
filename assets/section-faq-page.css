@@ -1,0 +1,15 @@
+.collapsible-content summary:hover .accordion__title {
+  text-decoration: none;
+}
+.accordion__title {
+  max-width: 100%;
+}
+.question:after {
+  content: "\02795"; /* Unicode character for "plus" sign (+) */
+  font-size: 13px;
+  margin-left: 5px;
+}
+
+details[open] .question:after {
+  content: "\2796"; /* Unicode character for "minus" sign (-) */
+}
