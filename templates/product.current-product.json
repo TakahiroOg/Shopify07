@@ -46,7 +46,7 @@
         "5ceab50d-861e-4e16-a592-4c932a2acc39": {
           "type": "custom_liquid",
           "settings": {
-            "custom_liquid": "<div class=\"ac_sec\">\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/226b30a0ead1bfc4be1abbbf7725d761.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>FOR LOVERS OF JAPANESE TEAS<\/h1>\n      <p>We offer a selection of the finest Japanese teas that pair perfectly with the content of your gift box.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/caf64c53219d6e036231124117a81fcd.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>GOURMET FOODS<\/h1>\n      <p>Each gift box contains gourmet foods from some of Kyoto's oldest and finest producers.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/2.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>LIFESTYLE GOODS<\/h1>\n      <p>We bring you exquisitely crafted Japanese lifestyle goods designed to complement your home and office.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/32f7500bb8e26d92e86e604cd8d7be1d.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>BEAUTIFULLY PRESENTED<\/h1>\n      <p>Each month's selection comes in a custom made and beautifully presented gift box exclusive to Mizu Japan.<\/p>\n    <\/div>\n  <\/div>\n<\/div>"
+            "custom_liquid": "<div class=\"ac_sec\">\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/226b30a0ead1bfc4be1abbbf7725d761.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>FOR LOVERS OF JAPANESE TEAS<\/h1>\n      <p>We offer a selection of the finest Japanese teas that pair perfectly with the content of your gift box.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/caf64c53219d6e036231124117a81fcd.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>GOURMET FOODS<\/h1>\n      <p>Each gift box contains gourmet foods from some of Kyoto's oldest and finest producers.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/2.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>LIFESTYLE GOODS<\/h1>\n      <p>We bring you exquisitely crafted Japanese lifestyle goods designed to complement your home and office.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/32f7500bb8e26d92e86e604cd8d7be1d.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>BEAUTIFULLY PRESENTED<\/h1>\n      <p>Each month's selection comes in a hand-made and beautifully presented gift box exclusive to Mizu Japan customers.<\/p>\n    <\/div>\n  <\/div>\n<\/div>"
           }
         }
       },
@@ -70,6 +70,23 @@
       "settings": {
         "padding_top": 20,
         "padding_bottom": 20
+      }
+    },
+    "16639188127dd3526d": {
+      "type": "apps",
+      "blocks": {
+        "83dd116e-287d-4ca6-9569-72411d7426fa": {
+          "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "83dd116e-287d-4ca6-9569-72411d7426fa"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "16596078958ea5a7db": {
@@ -123,6 +140,7 @@
     "1659606110b6f596ab",
     "main",
     "add-to-cart",
+    "16639188127dd3526d",
     "16596078958ea5a7db",
     "products-inside",
     "past-selection"
