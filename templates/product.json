@@ -1,7 +1,7 @@
 {
   "sections": {
     "main": {
-      "type": "main-product-backup",
+      "type": "main-product-default",
       "blocks": {
         "f334fc14-f4ad-4ded-bcbd-472c13ba81e4": {
           "type": "title",
