@@ -8,10 +8,6 @@
     display: inline-block;
   }
 }
-body {
-  font-size: 19px !important;
-  line-height: 1.5;
-}
 
 /* Header Start */
 ul.list-menu.list-menu--inline li a {
