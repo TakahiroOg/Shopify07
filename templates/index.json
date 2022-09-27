@@ -44,6 +44,36 @@
         "padding_bottom": 36
       }
     },
+    "16573478657360bcaa": {
+      "type": "rich-text",
+      "blocks": {
+        "1657347865ec85499e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p> Treat Yourself or a Loved One <\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1657347865ec85499e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Mizu Japan offers you not only the most exquisite Japanese confectionery but delightful lifestyle goods as well.<br\/>Your personal shopper curates each individual gift box to order to guarantee the very finest selection and presentation.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1657347865ec85499e-0",
+        "1657347865ec85499e-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 52
+      }
+    },
     "1657347429e10a4d6b": {
       "type": "multicolumn",
       "blocks": {
@@ -73,7 +103,7 @@
         "1657347429059942fa-1"
       ],
       "settings": {
-        "title": "PAST SELECTIONS",
+        "title": "OUR PREVIOUS SELECTIONS",
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -89,80 +119,8 @@
         "padding_bottom": 56
       }
     },
-    "16573478657360bcaa": {
-      "type": "rich-text",
-      "blocks": {
-        "1657347865ec85499e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p> Treat Yourself or a Loved One <\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1657347865ec85499e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Mizu Japan offers you not only the most exquisite Japanese confectionery but delightful lifestyle goods as well.<br\/>Your personal shopper curates each individual gift box to order to guarantee the very finest selection and presentation.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "1657347865ec85499e-0",
-        "1657347865ec85499e-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 100,
-        "padding_bottom": 100
-      }
-    },
     "1659951699d2820ed5": {
       "type": "apps",
-      "settings": {
-        "include_margins": true
-      }
-    },
-    "1657348388bf69ba85": {
-      "type": "rich-text",
-      "blocks": {
-        "16573483881a696ec1-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Instagram<\/p>",
-            "heading_size": "h2"
-          }
-        }
-      },
-      "block_order": [
-        "16573483881a696ec1-0"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": false,
-        "padding_top": 40,
-        "padding_bottom": 100
-      }
-    },
-    "16599562149f7e8ecd": {
-      "type": "apps",
-      "blocks": {
-        "861d4e73-9a96-47fe-982f-e548139c2527": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
-          "settings": {
-            "heading_size": 20,
-            "feed_width": 100,
-            "html_area": ""
-          }
-        }
-      },
-      "block_order": [
-        "861d4e73-9a96-47fe-982f-e548139c2527"
-      ],
       "settings": {
         "include_margins": true
       }
@@ -205,8 +163,50 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
+    "1657348388bf69ba85": {
+      "type": "rich-text",
+      "blocks": {
+        "16573483881a696ec1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Instagram<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16573483881a696ec1-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": false,
+        "padding_top": 52,
         "padding_bottom": 52
+      }
+    },
+    "16599562149f7e8ecd": {
+      "type": "apps",
+      "blocks": {
+        "861d4e73-9a96-47fe-982f-e548139c2527": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "861d4e73-9a96-47fe-982f-e548139c2527"
+      ],
+      "settings": {
+        "include_margins": true
       }
     },
     "165771547980559015": {
@@ -214,8 +214,8 @@
       "settings": {
         "custom_liquid": "<div class=\"testimonial-heading\"><h2><span>W<\/span>hat People Are Saying<\/h2><\/div>",
         "color_scheme": "background-1",
-        "padding_top": 52,
-        "padding_bottom": 0
+        "padding_top": 100,
+        "padding_bottom": 36
       }
     },
     "1657712642c6bece98": {
@@ -230,12 +230,12 @@
   },
   "order": [
     "166045115415dafe64",
-    "1657347429e10a4d6b",
     "16573478657360bcaa",
+    "1657347429e10a4d6b",
     "1659951699d2820ed5",
+    "166044990474ae38b7",
     "1657348388bf69ba85",
     "16599562149f7e8ecd",
-    "166044990474ae38b7",
     "165771547980559015",
     "1657712642c6bece98"
   ]

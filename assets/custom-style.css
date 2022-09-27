@@ -8,10 +8,6 @@
     display: inline-block;
   }
 }
-body {
-  font-size: 19px !important;
-  line-height: 1.5;
-}
 
 /* Header Start */
 ul.list-menu.list-menu--inline li a {
@@ -219,15 +215,7 @@ div#Banner-template--16212336672988__16573486482bb6382c h2.banner__heading.h2 {
   }
 }
 
-.testimonial-sec .testimonial-box.active:after {
-  content: "“";
-  position: absolute;
-  color: white;
-  font-size: 5em;
-  top: -40px;
-  right: 350px;
-  font-family: auto !important;
-}
+
 /* Home End */
 
 /* Our Story Start */
