@@ -7,35 +7,35 @@
           "type": "collapsible_row",
           "settings": {
             "heading": "My box arrived damaged, can you help?",
-            "row_content": "<p>We take the utmost care to protect your gift boxes from damage. Unfortunately however,  gift boxes may get damaged during transit. If your gift box arrives damaged, we kindly ask that you first contact the shipping company in the first instance and we recommend we be c.c.'d in any correspondence with them. Please also contact us with photos of the damaged goods at <a href=\"mailto:%20customercare@mizu-japan.com\">customercare@mizu-japan.com <\/a>and we will,<em>at our discretion dependent upon the type and severity of the damage<\/em>provide a replacement gift box.<\/p>"
+            "row_content": "<p>We take the utmost care to protect your gift boxes from damage. Unfortunately however,  gift boxes may get damaged during transit. If your gift box arrives damaged, we kindly ask that you first contact the shipping company in the first instance and we recommend we be c.c.'d in any correspondence with them. Please also contact us with photos of the damaged goods at <a href=\"mailto:%20customercare@mizu-japan.com\">customercare@mizu-japan.com </a>and we will,<em>at our discretion dependent upon the type and severity of the damage</em>provide a replacement gift box.</p>"
           }
         },
         "c37edf2a-4c18-44d9-b84f-3a886e173848": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Is shipping included in the price?",
-            "row_content": "<p>Shipping costs are not included. Cost and method shipping, if applicable, is calculated at checkout.<\/p>"
+            "row_content": "<p>Shipping costs are not included. Cost and method shipping, if applicable, is calculated at checkout.</p>"
           }
         },
         "6e300591-6c30-416d-96d6-ce608936758b": {
           "type": "collapsible_row",
           "settings": {
             "heading": "How long does it take for my order to arrive?",
-            "row_content": "<p>Our boxes ship directly from Japan and international shipping can be unpredictable, as such we can’t guarantee that your box will arrive by a certain date. It typically takes 1 to 3 weeks to arrive from the date you place your order but can take up to 4 or more weeks depending on local customs and\/or postal service delays.<\/p>"
+            "row_content": "<p>Our boxes ship directly from Japan and international shipping can be unpredictable, as such we can’t guarantee that your box will arrive by a certain date. It typically takes 1 to 3 weeks to arrive from the date you place your order but can take up to 4 or more weeks depending on local customs and/or postal service delays.</p>"
           }
         },
         "c475515c-7d45-4e8e-8a22-b24bff14b464": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Will I have to pay Customs and Duties?",
-            "row_content": "<p>When ordering goods from Mizu Japan you may be subject to import duties and\/or taxes. Such import duties and\/or taxes is entirely <em>dependent upon the country the gift box is being shipped to<\/em> and is not determined by Mizu Japan.<\/p><p><em><strong>Please note that Mizu Japan is not responsible for any charges that are incurred from customs and\/or duties whatsoever.<\/strong><\/em><\/p><p>Any additional charges for customs clearance are considered outside of our control and Mizu Japan cannot predict the value of what these charges may be.<\/p><p>For additional information on custom and excise policies in your country, please contact your local customs office.<\/p>"
+            "row_content": "<p>When ordering goods from Mizu Japan you may be subject to import duties and/or taxes. Such import duties and/or taxes is entirely <em>dependent upon the country the gift box is being shipped to</em> and is not determined by Mizu Japan.</p><p><em><strong>Please note that Mizu Japan is not responsible for any charges that are incurred from customs and/or duties whatsoever.</strong></em></p><p>Any additional charges for customs clearance are considered outside of our control and Mizu Japan cannot predict the value of what these charges may be.</p><p>For additional information on custom and excise policies in your country, please contact your local customs office.</p>"
           }
         },
         "04754826-8207-4ccd-9be5-9f7681a8e99a": {
           "type": "collapsible_row",
           "settings": {
             "heading": "Can I return my Gift Box if I’m not satisfied?",
-            "row_content": "<p>Due to the nature of the perishable contents of the Gift Box<em> it is not possible for us to accept returns.<\/em><\/p><p>However, we are determined to ensure that you are fully satisfied with our service so we will offer a full refund for the cost of the gift box. Please see our <a href=\"https:\/\/mizu-japan.com\/pages\/refunds-policy\">Refunds Policy<\/a> page for more details.<\/p><p>For all other enquiries please do not hesitate to contact us via email where we’ll be happy to assist you in anyway we can: <a href=\"mailto:%20customercare@mizu-japan.com\">customercare@mizu-japan.com<\/a><\/p>"
+            "row_content": "<p>Due to the nature of the perishable contents of the Gift Box<em> it is not possible for us to accept returns.</em></p><p>However, we are determined to ensure that you are fully satisfied with our service so we will offer a full refund for the cost of the gift box. Please see our <a href=\"https://mizu-japan.com/pages/refunds-policy\">Refunds Policy</a> page for more details.</p><p>For all other enquiries please do not hesitate to contact us via email where we’ll be happy to assist you in anyway we can: <a href=\"mailto:%20customercare@mizu-japan.com\">customercare@mizu-japan.com</a></p>"
           }
         }
       },
@@ -54,7 +54,5 @@
       }
     }
   },
-  "order": [
-    "main"
-  ]
+  "order": ["main"]
 }
