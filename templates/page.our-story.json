@@ -11,12 +11,13 @@
     "165727706849585ceb": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/Gift_Box_Full.jpg",
+        "image": "shopify:\/\/shop_images\/Image_to_place_at_top_of_Our_Story_page.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
+        "bottom": true,
+        "desktop_content_position": "bottom-center",
+        "show_text_box": false,
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
