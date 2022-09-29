@@ -32,7 +32,8 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/top-pic-kimono.jpg",
-        "height": "adapt",
+        "mobile_image": "shopify:\/\/shop_images\/Original_uncropped_version_to_maybe_use_on_mobile_site_only_if_possible.jpg",
+        "height": "large",
         "desktop_image_width": "large",
         "layout": "text_first",
         "desktop_content_position": "middle",
