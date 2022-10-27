@@ -83,20 +83,20 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_9160_16ff859c-cf5b-43d5-b43e-f812da7a1e48.jpg",
-            "title": "September Nagatsuki Selection",
+            "title": "October Kannazuki Selection",
             "text": "",
             "link_label": "",
-            "link": "https:\/\/mizu-japan.com\/products\/september-selections"
+            "link": "shopify:\/\/products\/october-selection"
           }
         },
         "1657347429059942fa-1": {
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/main-image-october2022-gift-box-mizu-japan_jpg_659f36ac-3266-4966-a8b3-b3f55113a9ed.jpg",
-            "title": "August Hazuki Selection",
+            "title": "September Nagatsuki Selection",
             "text": "",
             "link_label": "",
-            "link": "https:\/\/mizu-japan.com\/products\/august-selections"
+            "link": "shopify:\/\/products\/september-selection"
           }
         }
       },

@@ -13,6 +13,7 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Image_to_place_at_top_of_Our_Story_page.jpg",
         "image_overlay_opacity": 0,
+        "show_parallax": true,
         "image_height": "large",
         "adapt_height_first_image": false,
         "bottom": true,

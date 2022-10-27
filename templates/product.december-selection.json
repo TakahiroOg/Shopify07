@@ -3,8 +3,8 @@
     "1659606110b6f596ab": {
       "type": "image-banner",
       "settings": {
-        "image": "shopify:\/\/shop_images\/main-image-october2022-gift-box-mizu-japan_jpg_7d4beef5-3322-49c4-ae5c-fbcb69e57a94.jpg",
         "image_overlay_opacity": 0,
+        "show_parallax": false,
         "image_height": "medium",
         "adapt_height_first_image": false,
         "bottom": false,
@@ -59,7 +59,7 @@
         "5ceab50d-861e-4e16-a592-4c932a2acc39"
       ],
       "settings": {
-        "product-title": "November Gift Box",
+        "product-title": "December Gift Box",
         "divider-top-margin": 20,
         "media_size": "large",
         "padding_top": 36,
@@ -85,17 +85,62 @@
     "products-inside": {
       "type": "products-inside",
       "blocks": {
-        "e81b2177-c92d-4614-9cc4-5ffe9e419650": {
+        "483a0a81-35c0-4509-85a1-ae15caf13c62": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/C1-image-august2022-gift-box-mizu-japan_jpg.jpg",
-            "product_name": "test",
-            "description": "hello"
+            "image": "shopify:\/\/shop_images\/C1-image-september2022-gift-box-mizu-japan_jpg.jpg",
+            "product_name": "Product 1",
+            "description": "Product 1 Description"
+          }
+        },
+        "3c3b4564-916a-4e99-9500-846dea346391": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C1-image-september2022-gift-box-mizu-japan_jpg.jpg",
+            "product_name": "Product 2",
+            "description": "Product 2 Description"
+          }
+        },
+        "03138678-fedc-44c8-9ccc-1e46faf422bf": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C1-image-september2022-gift-box-mizu-japan_jpg.jpg",
+            "product_name": "Product 3",
+            "description": "Product 3 description"
+          }
+        },
+        "a59302cf-1c4f-4877-8ef5-6378504c0d08": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C1-image-september2022-gift-box-mizu-japan_jpg.jpg",
+            "product_name": "dfd",
+            "description": "DDddd"
+          }
+        },
+        "834497a1-8006-4be3-a7e0-789654ed7aff": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C1-image-september2022-gift-box-mizu-japan_jpg.jpg",
+            "product_name": "Product 5",
+            "description": ""
+          }
+        },
+        "e987fe75-b7bf-4682-b725-d61264250890": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C1-image-september2022-gift-box-mizu-japan_jpg.jpg",
+            "product_name": "Product 6",
+            "description": ""
           }
         }
       },
       "block_order": [
-        "e81b2177-c92d-4614-9cc4-5ffe9e419650"
+        "483a0a81-35c0-4509-85a1-ae15caf13c62",
+        "3c3b4564-916a-4e99-9500-846dea346391",
+        "03138678-fedc-44c8-9ccc-1e46faf422bf",
+        "a59302cf-1c4f-4877-8ef5-6378504c0d08",
+        "834497a1-8006-4be3-a7e0-789654ed7aff",
+        "e987fe75-b7bf-4682-b725-d61264250890"
       ],
       "settings": {
         "color_scheme": "accent-1",
@@ -109,17 +154,17 @@
         "f594ad3a-29d0-4df6-8063-51efa21e1308": {
           "type": "product",
           "settings": {
-            "product_title": "October Selection",
-            "product": "october-selection",
-            "product_img": "shopify:\/\/shop_images\/aug.jpg"
+            "product_title": "November Selection",
+            "product": "november-selection",
+            "product_img": "shopify:\/\/shop_images\/november-selection.jpg"
           }
         },
         "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
           "type": "product",
           "settings": {
-            "product_title": "September Selection",
-            "product": "september-selection",
-            "product_img": "shopify:\/\/shop_images\/sept.jpg"
+            "product_title": "October Selection",
+            "product": "october-selection",
+            "product_img": "shopify:\/\/shop_images\/past_box_main_page2_copy.jpg"
           }
         }
       },

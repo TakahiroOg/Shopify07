@@ -107,14 +107,23 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "From Kyoto, the heart of Japan, with love.",
+              "text": "*INCLUDES FREE INTERNATIONAL SHIPPING*",
               "color_scheme": "accent-1",
+              "link": ""
+            }
+          },
+          "546d88d0-44b3-4363-ad7b-ede1f716fe6d": {
+            "type": "announcement",
+            "settings": {
+              "text": "10% OFF October Discount Code: MIZU1022",
+              "color_scheme": "background-1",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "546d88d0-44b3-4363-ad7b-ede1f716fe6d"
         ],
         "settings": {
         }

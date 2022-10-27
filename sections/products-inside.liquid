@@ -12,284 +12,27 @@
   }
 }
 {%- endstyle -%}
-  <div class="color-{{ section.settings.color_scheme }} gradient">
-    <div class="section-{{ section.id }}-padding products-inside">
-      <div class="pro-box page-width">
+
+<div class="color-{{ section.settings.color_scheme }} gradient">
+  <div class="section-{{ section.id }}-padding products-inside">
+    <div class="pro-box page-width">
+    {% for block in section.blocks %}  
+      {% case block.type %}
+        {% when 'product' %}  
         <div class="box-inn">
-          <img src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/A1-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662113814">
+          <img src="{{ block.settings.image| image_url: width: 600 }}" loading="lazy">
           <div class="acc">
-            <div class="acc-head">Paper Weight </div>
-              <div class="acc-content">
-                <p>Crane Themed Paper Weight <br>PRODUCT OF: Kyoto<br>PRODUCED BY: Kyukyodo<br><br>
-                Love at first sight when you behold this in person. A contemporay take on a traditional symbol of Japan, it's never out of place and is a joy to behold
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="box-inn">
-          <img src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/B1-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662114678">
-          <div class="acc">
-            <div class="acc-head">Hand Fan</div>
-              <div class="acc-content">
-                <p>
-                  PRODUCT OF: Kyoto
-                  <br>
-                  PRODUCED BY: A variety of local artisans.
-                  <br>
-                  <br>
-                  Traditonal Handmade Summer Fan.
-                  Due to high demand of these extraordinary limited edition fans, the design of the fan delivered will be dependent
-                  on availability at the time of ordering. Thank you for your understanding.
-                </p>
-              </div>
-          </div>
-        </div>
-        <div class="box-inn">
-          <img src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/C1-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662115177">
-          <div class="acc">
-            <div class="acc-head"> Shiori</div>
+            <div class="acc-head">{{ block.settings.product_name }}</div>
             <div class="acc-content">
-              <p>
-              
-                PRODUCT OF: Kyoto
-                <br>
-                PRODUCED BY: Fukui Asahido
-                <br>
-                <br>
-                A unique collection of Kyoto - World Heritage Bookmarks. Each bookmark has an exquisitely drawn image of a famous
-                Kyoto landmark. Keep them all for yourself or share them with friends and family. Either way they'll be cherished
-                for years to come.
-              </p>
+              <p>{{ block.settings.description }}</p>
             </div>
           </div>
         </div>
-        <div class="box-inn">
-          <img src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/A2-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662113251">
-            <div class="acc">
-              <div class="acc-head">Notari Notari</div>
-              <div class="acc-content">
-                <p>
-                  PRODUCT OF: Kyoto
-                  <br>
-                  FLAVOR: Savory
-                  <br>
-                  SUITABLE FOR VEGETARIANS: Yes
-                  <br>
-                  COMMON ALLERGENS: Wheat, Soy
-                  <br>
-                  PRODUCED BY: Buson-an
-                  <br>
-                  <br>
-                  A declicious collection of traditional rice crackers from a company that still procuces them in the traditional
-                  manner.
-                  *This mochi is called daifuku,
-                  or stuffed mochi. It's flavored
-                  with chocolate and amaou strawberries.
-                  Amaou are grown in Fukuoka
-                  and referred to as ""The King of
-                  Strawberries"" for their delicious taste.*
-                </p>
-              </div>
-            </div>
-        </div>
-        <div class="box-inn">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/B2-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662115602">
-          <div class="acc">
-            <div class="acc-head">Azabu Karinto</div>
-            <div class="acc-content">
-              <p>
-                PRODUCT OF: Tokyo
-                <br>
-                FLAVOR: Sweet
-                <br>
-                SUITABLE FOR VEGETARIANS: Yes
-                <br>
-                COMMON ALLERGENS: Wheat, Milk, Sesame
-                <br>
-                PRODUCED BY: Azabu Karinto
-                <br>
-                <br>
-                Deep-fried snacks flavoured with brown sugar. Based in Tokyo, Azabu Karinto is known for the lines of people
-                that form around the block to savor these delicacies.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="box-inn">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/C2-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662115676">
-          <div class="acc">
-            <div class="acc-head">Wasabi Pistachios</div>
-            <div class="acc-content">
-              <p>
-                PRODUCT OF: Kyoto
-                <br>
-                FLAVOR: Savory
-                <br>
-                SUITABLE FOR VEGETARIANS: Yes
-                <br>
-                COMMON ALLERGENS: Wheat, Milk
-                <br>
-                PRODUCED BY: Mametomi Honpo
-                <br>
-                <br>
-                 Kyoto Komamehan Wasabi Pistachios.
-                These popular wasabi flavored bean sweets are packed with flavor and have a delightful a crunchy texture.
-                With some green tea, they make a perfect mid-afternoon treat.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="box-inn">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/A3-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662113251">
-          <div class="acc">
-            <div class="acc-head">Koicha-Temari</div>
-            <div class="acc-content">
-              <p>
-                PRODUCT OF: Kyoto
-                <br>
-                FLAVOR: Sweet
-                <br>
-                SUITABLE FOR VEGETARIANS: Yes
-                <br>
-                COMMON ALLERGENS:None
-                <br>
-                PRODUCED BY: Crochet
-                <br>
-                <br>
-                Crochet is a candy store dating back 140-year specializing in traditional Kyoto candy.
-                Preserving the recipes and techniques handed down to them, Crochet makes their candy 100% by hand.
-                Koicha-Temari candies have an unforgettable and delighful matcha taste to them.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="box-inn">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/B3-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662116127">
-          <div class="acc">
-            <div class="acc-head">Men Tou Ka</div>
-            <div class="acc-content">
-              <p>
-                PRODUCT OF: Kyoto
-                <br>
-                FLAVOR: Sweet
-                <br>
-                SUITABLE FOR VEGETARIANS: Yes
-                <br>
-                COMMON ALLERGENS:None
-                <br>
-                PRODUCED BY: Zarame
-                <br>
-                <br>
-                Japanese cotton candy from the heart of Kyoto's famous Arashiyama district. Imagine the cotton candy you had
-                as a child and put a Japanese twist on it. Heavenly!
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="box-inn">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/C3-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662116341">
-          <div class="acc">
-            <div class="acc-head">Waffle Cookies</div>
-            <div class="acc-content">
-              <p>
-                PRODUCT OF: Kyoto
-                <br>
-                FLAVOR: Sweet
-                <br>
-                SUITABLE FOR VEGETARIANS: Yes
-                <br>
-                COMMON ALLERGENS:Wheat, Milk, Soy, Eggs
-                <br>
-                PRODUCED BY: Crochet
-                <br>
-                <br>
-               Made with high-quality Uji matcha from Kyoto Prefecture, these waffle cookies melt-in-your-mouth. A perfect blend of sweetness and the rich aroma of the finest Uji matcha.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="box-inn">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/A4-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662113251">
-          <div class="acc">
-            <div class="acc-head"> Yukidaruma Wasanbon</div>
-            <div class="acc-content">
-              <p>
-                PRODUCT OF: Kyoto
-                <br>
-                FLAVOR: Sweet
-                <br>
-                SUITABLE FOR VEGETARIANS: Yes
-                <br>
-                COMMON ALLERGENS:None
-                <br>
-                PRODUCED BY: Kyo Kaera
-                <br>
-                <br>
-                Yukidaruma Wasanbon is a premium candy originally produced in Kagawa on the island of Shikoku. It has a 400 years old
-                history and is still very popular today as an adorable confectionary. Savor the refreshing sweetness that is
-                slowly released.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="box-inn">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/B4-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662116649">
-          <div class="acc">
-            <div class="acc-head">Hon Warabimochi</div>
-            <div class="acc-content">
-              <p>
-                PRODUCT OF: Kyoto
-                <br>
-                FLAVOR: Sweet
-                <br>
-                SUITABLE FOR VEGETARIANS: Yes
-                <br>
-                COMMON ALLERGENS:Soy
-                <br>
-                PRODUCED BY: Oimatsu
-                <br>
-                <br>
-                Warabi-mochi is a Japanese sweet made of bracken starch. It is often coated with toasted soybean flour and it
-                has a jelly-like chewy texture.
-                It is especially popular during the summer season and pairs well with sensha tea.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="box-inn">
-          <img
-            src="https://cdn.shopify.com/s/files/1/0630/3157/4748/files/C4-image-october2022-gift-box-mizu-japan_jpg.jpg?v=1662117009">
-          <div class="acc">
-            <div class="acc-head">Sencha Tea</div>
-            <div class="acc-content">
-              <p>
-                PRODUCT OF: Kyoto
-                <br>
-                FLAVOR: Green tea
-                <br>
-                SUITABLE FOR VEGETARIANS: Yes
-                <br>
-                COMMON ALLERGENS: N/A
-                <br>
-                PRODUCED BY: Ippodo
-                <br>
-                <br>
-                Sen means 'infuse', and sencha is tea that is infused in water. Sencha is consumed warm and at all hours of
-                the day in Japan. With low levels of caffeine, it can provide a pleasant boost without keeping you up at
-                night.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      {% comment %} Add to cart {% endcomment %}
+      {% endcase %} 
+    {% endfor %}
+    </div>
+    {% comment %} Add to cart {% endcomment %}
+    {% if section.settings.show_atc %}
       {%- assign product_form_id = 'product-form-' | append: section.id -%}
         <div class="page-width">
           <div class="cta-wrapper">
@@ -319,7 +62,8 @@
             </div>
           </div>
         </div>
-      {% comment %} End Add to cart {% endcomment %}
+    {% endif %}
+    {% comment %} End Add to cart {% endcomment %}
     </div>
   </div>
 </section> 
@@ -341,7 +85,7 @@
   });     
   });
   </script>
-  {% schema %}
+{% schema %}
 {
   "name": "Products Inside",
   "settings": [
@@ -388,6 +132,35 @@
       "unit": "px",
       "label": "t:sections.all.padding.padding_bottom",
       "default": 52
+    },
+    {
+      "type": "checkbox",
+      "id": "show_atc",
+      "default": true,
+      "label": "Show ATC Button"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "Product",
+      "type": "product",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "product_name",
+          "label": "Product name"
+        },
+        {
+          "type": "textarea",
+          "id": "description",
+          "label": "Description"
+        }
+      ]
     }
   ]
 }
