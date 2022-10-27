@@ -145,7 +145,8 @@
       "settings": {
         "color_scheme": "accent-1",
         "padding_top": 100,
-        "padding_bottom": 100
+        "padding_bottom": 100,
+        "show_atc": true
       }
     },
     "past-selection": {
