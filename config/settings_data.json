@@ -107,15 +107,16 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "*INCLUDES FREE INTERNATIONAL SHIPPING*",
+              "text": "FREE INTERNATIONAL SHIPPING ON ALL ORDERS!",
               "color_scheme": "accent-1",
               "link": ""
             }
           },
           "546d88d0-44b3-4363-ad7b-ede1f716fe6d": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
-              "text": "10% OFF October Discount Code: MIZU1022",
+              "text": "25% OFF your December Gift Box for a *LIMITED TIME only*",
               "color_scheme": "background-1",
               "link": ""
             }

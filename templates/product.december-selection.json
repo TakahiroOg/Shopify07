@@ -20,6 +20,7 @@
     },
     "main": {
       "type": "main-product",
+      "disabled": true,
       "blocks": {
         "c3f3b92a-769e-4dff-a720-fd065f0bebe1": {
           "type": "title",
@@ -62,13 +63,14 @@
       "settings": {
         "product-title": "December Gift Box",
         "divider-top-margin": 20,
-        "media_size": "large",
+        "media_size": "medium",
         "padding_top": 36,
         "padding_bottom": 12
       }
     },
     "add-to-cart": {
       "type": "add-to-cart",
+      "disabled": true,
       "settings": {
         "padding_top": 20,
         "padding_bottom": 20
@@ -91,15 +93,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1610.jpg",
             "product_name": "Sake Cup",
-            "description": "Product of: Kyoto<br>\nProduced by: Shunzan-gama<br><br>\nShunzan-gama is a third generation pottery maker who's techniques and methods of pottery date back to Ogata Kenzan (1663~1743) who was one of the greatest Japanese ceramicists. These delightful handmade sake cups are adorned with exquisite Japanese motifs. They are not only practical but are so eye catching they can simply be displayed to brighten up any room you choose to place them in.\n<br><br>\n*Important Note* Each cup is uniquely crafted and as such the pattern, color, and size, will differ from those displayed in the photos.\nThank you for your understanding."
+            "description": "<p>Product of: Kyoto<br\/>Produced by: Shunzan-gama<br\/><br\/>Shunzan-gama is a third generation pottery maker who's techniques and methods of pottery date back to Ogata Kenzan (1663~1743) who was one of the greatest Japanese ceramicists. These delightful handmade sake cups are adorned with exquisite Japanese motifs. They are not only practical but are so eye catching they can simply be displayed to brighten up any room you choose to place them in.<br\/><br\/>*Important Note* Each cup is uniquely crafted and as such the pattern, color, and size, will differ from those displayed in the photos.<br\/>Thank you for your understanding.<\/p>"
           }
         },
         "3c3b4564-916a-4e99-9500-846dea346391": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9434.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_9434_de98e59a-5496-4024-b25d-b77f5d1ca15d.jpg",
             "product_name": "Traditional Incense",
-            "description": "Product of: Kyoto<br>\nProduced by: Yamadamatsu\n<br><br>\nThis unique incense set comes with a porcelain square with a small hole set in a corner in which to place the incense stick itself.<br>\nThe holder has a beautiful traditional floral design which matches the box that contains the incense sticks themselves.<br>\nThe incense gives off a graceful and elegant fragrance, inspired by plum blossoms, which will put you at ease while you enjoy the contents of your gift box.<br>\nAs the incense holder and sticks comes in a set that beautifully complement each other it also makes and ideal gift for a friend or loved one."
+            "description": "<p>Product of: Kyoto<br\/>Produced by: Yamadamatsu<br\/><br\/>This unique incense set comes with a porcelain square with a small hole set in a corner in which to place the incense stick itself.<br\/><br\/>The holder has a beautiful traditional floral design which matches the box that contains the incense sticks themselves.<br\/><br\/>The incense gives off a graceful and elegant fragrance, inspired by plum blossoms, which will put you at ease while you enjoy the contents of your gift box.<br\/><br\/>As the incense holder and sticks comes in a set that beautifully complement each other it also makes and ideal gift for a friend or loved one.<\/p>"
           }
         },
         "03138678-fedc-44c8-9ccc-1e46faf422bf": {
@@ -107,7 +109,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1095.jpg",
             "product_name": "Kimono Cookies",
-            "description": "Product of: Kyoto<br>\nFlavor: Sweet<br>\nSuitable for vegetarians: Yes\/No<br>\nCommon Allergen(s): Wheat, Milk, Soy<br>\nProduced by: Kyoto Marun<br>\n<br>\nA modern culinary take on a Japanese tradition.<br>\nThese chocolate cookies each have a unique and adorable kimono pattern on them and will surprise and delight you with how adorable they are!<br>\nThe chocolate cookies are baked to perfection with white chocolate kneaded into them so that they have a slightly crumbly texture.<br>\nThoughtfully presented in packets of 3 in a delightful wooden box they make a uniquely charming gift and perfectly complement our December gift box content."
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes\/No<br\/>Common Allergen(s): Wheat, Milk, Soy<br\/>Produced by: Kyoto Marun<br\/><br\/><br\/>A modern culinary take on a Japanese tradition.<br\/><br\/>These chocolate cookies each have a unique and adorable kimono pattern on them and will surprise and delight you with how adorable they are!<br\/><br\/>The chocolate cookies are baked to perfection with white chocolate kneaded into them so that they have a slightly crumbly texture.<br\/><br\/>Thoughtfully presented in packets of 3 in a delightful wooden box they make a uniquely charming gift and perfectly complement our December gift box content.<\/p>"
           }
         },
         "a59302cf-1c4f-4877-8ef5-6378504c0d08": {
@@ -115,7 +117,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1598.jpg",
             "product_name": "Kinako & Yuzuhabutae Mochi",
-            "description": "Product of: Kyoto<br>\nFlavor: Sweet<br>\nSuitable for vegetarians: Yes<br>\nCommon Allergen(s): Soy<br>\nProduced by: Sasayaiori<br>\n<br>\nA veritable treat awaits the recipients of this month's gift box with these delightful treats as we offer you two of the most delectable types of Japanese rice cake (mochi).<br>\nThe two flavors being 'kinako', roasted soybean flour, and the other being 'yuzu', Japanese citrus fruit.<br>\nThe kinako mochi is accompanied by black sugar syrup to drizzle over it.<br>\nThese delicate treats are prepared by a company dating back to 1716 when the confectionery maker Sasaya Ihee was summoned to Kyoto by the Imperial Palace to produce confectionary exclusively for it and select tea grandmasters, temples, and shrines.<br>\nThe quality of its produce remains as high today as it was over three hundred years ago."
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Soy<br\/>Produced by: Sasayaiori<br\/><br\/><br\/>A veritable treat awaits the recipients of this month's gift box with these delightful treats as we offer you two of the most delectable types of Japanese rice cake (mochi).<br\/><br\/>The two flavors being 'kinako', roasted soybean flour, and the other being 'yuzu', Japanese citrus fruit.<br\/><br\/>The kinako mochi is accompanied by black sugar syrup to drizzle over it.<br\/><br\/>These delicate treats are prepared by a company dating back to 1716 when the confectionery maker Sasaya Ihee was summoned to Kyoto by the Imperial Palace to produce confectionary exclusively for it and select tea grandmasters, temples, and shrines.<br\/><br\/>The quality of its produce remains as high today as it was over three hundred years ago.<\/p>"
           }
         },
         "834497a1-8006-4be3-a7e0-789654ed7aff": {
@@ -123,55 +125,55 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1635.jpg",
             "product_name": "An Butter",
-            "description": "Product of: Kyoto<br>\nFlavor: Sweet<br>\nSuitable for vegetarians: No<br>\nCommon Allergen(s): Milk, Soy<br>\nProduced by: Toshoan<br>\n<br>\nThis delicious and innovative spread is a delightful blend of anko (red bean paste) and butter.<br>\nThe fragrant aroma of toasted bread and the buttery aroma of red bean paste combine to create an alluring aroma that will whet your appetite.<br>\nThe anko paste has a nice sweetness to it, but it's not too sweet! The pleasant saltiness of butter is well-balanced and irresistible.<br>\nSpread it on toast in the morning or ice cream in the evening to give yourself a special treat.<br>"
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: No<br\/>Common Allergen(s): Milk, Soy<br\/>Produced by: Toshoan<br\/><br\/><br\/>This delicious and innovative spread is a delightful blend of anko (red bean paste) and butter.<br\/><br\/>The fragrant aroma of toasted bread and the buttery aroma of red bean paste combine to create an alluring aroma that will whet your appetite.<br\/><br\/>The anko paste has a nice sweetness to it, but it's not too sweet! The pleasant saltiness of butter is well-balanced and irresistible.<br\/><br\/>Spread it on toast in the morning or ice cream in the evening to give yourself a special treat.<br\/><\/p>"
           }
         },
         "e987fe75-b7bf-4682-b725-d61264250890": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0891.jpg",
+            "image": "shopify:\/\/shop_images\/Fukiyose_48ee22bf-aded-44ef-be19-d5b56361013c.jpg",
             "product_name": "Coffee Yokan",
-            "description": "Product of: Kyoto<br>\nFlavor: Sweet<br>\nSuitable for vegetarians: Yes<br>\nCommon Allergen(s): Soy<br>\nProduced by: Toshoan<br>\n<br>\nYokan is a jelly like confection made from sweet bean paste and a classic example of Japanese confectionery. It is a well-known type of sweet in Japan with various types of seasonal yokan found throughout the country. In this month's gift box is an offering of delicious coffee flavored yokan which is a firm favorite amongst Japanese people. It's ideal when paired with a cup of coffee complementing one another's flavor."
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Soy<br\/>Produced by: Toshoan<br\/><br\/><br\/>Yokan is a jelly like confection made from sweet bean paste and a classic example of Japanese confectionery. It is a well-known type of sweet in Japan with various types of seasonal yokan found throughout the country. In this month's gift box is an offering of delicious coffee flavored yokan which is a firm favorite amongst Japanese people. It's ideal when paired with a cup of coffee complementing one another's flavor.<\/p>"
           }
         },
         "cf66c652-4344-4ac8-af99-c8ab820a64ef": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0878.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_0878_73dc2efc-0fc3-47b4-80c3-690470ab6773.jpg",
             "product_name": "Tokoyo Yuzu",
-            "description": "Product of: Kyoto<br>\nFlavor: Sweet<br>\nSuitable for vegetarians: Yes<br>\nCommon Allergen(s): None<br>\nProduced by: Kitchoan<br>\n<br>\nYuzu is a traditional Japanese citrus fruit that has long been used in Japanese cuisine.<br>\nYuzu is used to make various sweets such as the one we offer this month.<br>\nTokoyo Yuzu uses the fruits rind dipped in moist honey giving it a unique bittersweet flavor.<br>\nA delicious treat that you'll find difficult to stop tasting!"
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): None<br\/>Produced by: Kitchoan<br\/><br\/><br\/>Yuzu is a traditional Japanese citrus fruit that has long been used in Japanese cuisine.<br\/><br\/>Yuzu is used to make various sweets such as the one we offer this month.<br\/><br\/>Tokoyo Yuzu uses the fruits rind dipped in moist honey giving it a unique bittersweet flavor.<br\/><br\/>A delicious treat that you'll find difficult to stop tasting!<\/p>"
           }
         },
         "1d01fae9-31b9-4265-bb83-ffeb03b8dcfd": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0850.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_0850_d5e05b57-5c09-4cf2-bfad-b9539a0bd56d.jpg",
             "product_name": "Daikon Ochazuke",
-            "description": "Product of: Kyoto<br>\nFlavor: Savory<br>\nSuitable for vegetarians: Yes\/No<br>\nCommon Allergen(s): Soy<br>\nProduced by: Tsujigahana<br>\n<br>\nOchazuke is a simple and healthy dish of steamed rice with an assortment of savory ingredients, partially steeped in green tea.<br>\nOcha refers to green tea, and zuke means 'submerged'. Daikon means radish which is the main flavor of the many toppings of the ochazuke we offer this month. <br>\nOchazuke became popular in Japan's Heian period when water was commonly poured over the rice, however since the Edo period, green tea is often used instead.<br>\nThough simple, ochazuke is a wholesome and comforting food that is especially delicious during the winter months. It's the Japanese equivalent of comfort food bringing back fond memories of long winter evenings at home."
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Savory<br\/>Suitable for vegetarians: Yes\/No<br\/>Common Allergen(s): Soy<br\/>Produced by: Tsujigahana<br\/><br\/><br\/>Ochazuke is a simple and healthy dish of steamed rice with an assortment of savory ingredients, partially steeped in green tea.<br\/><br\/>Ocha refers to green tea, and zuke means 'submerged'. Daikon means radish which is the main flavor of the many toppings of the ochazuke we offer this month. <br\/><br\/>Ochazuke became popular in Japan's Heian period when water was commonly poured over the rice, however since the Edo period, green tea is often used instead.<br\/><br\/>Though simple, ochazuke is a wholesome and comforting food that is especially delicious during the winter months. It's the Japanese equivalent of comfort food bringing back fond memories of long winter evenings at home.<\/p>"
           }
         },
         "83216bf3-6bd9-424e-abb3-3ed1c78020cb": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0817.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_0817_0cdc0751-aea6-4443-a614-2ab239d9523c.jpg",
             "product_name": "Houjicha Candy",
-            "description": "Product of: Kyoto<br>\nFlavor: Sweet<br>\nSuitable for vegetarians: Yes<br>\nCommon Allergen(s): None<br>\nProduced by: Kyojyurakuan<br>\n<br>\nHoujicha is a specially prepared Japanese green tea and houjicha candy is as special as the tea it is made from.<br>\nThese sweet little crunchy candies have the subtle taste of houjicha and are a perfect non-filling treat. They can be enjoyed on their own, with tea (houjicha is, of course, recommended) and even mixed in with vanilla ice cream for a delightful crunchy treat. They're as delicious as they are versatile."
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): None<br\/>Produced by: Kyojyurakuan<\/p><p><br\/><br\/>Houjicha is a specially prepared Japanese green tea and houjicha candy is as special as the tea it is made from.<br\/><br\/>These sweet little crunchy candies have the subtle taste of houjicha and are a perfect non-filling treat. They can be enjoyed on their own, with tea (houjicha is, of course, recommended) and even mixed in with vanilla ice cream for a delightful crunchy treat. They're as delicious as they are versatile.<\/p>"
           }
         },
         "10d73338-1688-4748-89a6-41873daaad5b": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0832.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_0832_5588920f-d932-41bb-b499-2243205b24f6.jpg",
             "product_name": "Zarame Karinto",
-            "description": "Product of: Tokyo<br>\nFlavor: Sweet<br>\nSuitable for vegetarians: Yes<br>\nCommon Allergen(s): Wheat, Milk, Soy, Sesame<br>\nProduced by: Azabu Karinto<br>\n<br>\nKarinto is a traditional Japanese snack food. Sweet and deep-fried, it is made primarily of flour, yeast, and brown sugar.<br>\nZarame Karinto has the special added ingredient of 'zarame' which is a coarse brown sugar coating the treat. Its color comes from a special process where caramel is added giving it a richer flavor. Karinto comes in many varieties with 'zazame' being one of the most popular. You're guaranteed to enjoy its subtle sweetness as many generations of Japanese have.<br>\nPairing suggestion: We recommend pairing with the Uji Sencha Tea which also accompanies this month's selection."
+            "description": "<p>Product of: Tokyo<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Wheat, Milk, Soy, Sesame<br\/>Produced by: Azabu Karinto<br\/><br\/><br\/>Karinto is a traditional Japanese snack food. Sweet and deep-fried, it is made primarily of flour, yeast, and brown sugar.<br\/><br\/>Zarame Karinto has the special added ingredient of 'zarame' which is a coarse brown sugar coating the treat. Its color comes from a special process where caramel is added giving it a richer flavor. Karinto comes in many varieties with 'zazame' being one of the most popular. You're guaranteed to enjoy its subtle sweetness as many generations of Japanese have.<br\/><br\/>Pairing suggestion: We recommend pairing with the Uji Sencha Tea which also accompanies this month's selection.<\/p>"
           }
         },
         "a55e1053-c8a9-4249-ac3e-ba5b201e7eb7": {
           "type": "product",
           "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_0860.jpg",
+            "image": "shopify:\/\/shop_images\/IMG_0860_2a76ece2-6641-488c-9b16-105851151174.jpg",
             "product_name": "Matcha Tea",
-            "description": "Product of: Kyoto<br>\nFlavor: Matcha (green tea)<br>\nSuitable for vegetarians: Yes<br>\nCommon Allergen(s): None<br>\nProduced by: Ippodo<br>\n<br>\nAll the goodness of matcha tea delivered in a convenient single-serve packet.<br>\nProduced by one of Japan's foremost tea companies it has a well-balanced taste without any bitterness and goes well with all sweets. <br>\nEnjoy the very finest matcha tea with convenience wherever you find yourself."
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Matcha (green tea)<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): None<br\/>Produced by: Ippodo<br\/><br\/><br\/>All the goodness of matcha tea delivered in a convenient single-serve packet.<br\/><br\/>Produced by one of Japan's foremost tea companies it has a well-balanced taste without any bitterness and goes well with all sweets. <br\/><br\/>Enjoy the very finest matcha tea with convenience wherever you find yourself.<\/p>"
           }
         },
         "a301e6b3-c9ae-429f-9cc0-7cbac75990cb": {
@@ -179,7 +181,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/IMG_1607.jpg",
             "product_name": "Uji Sencha",
-            "description": "Product of: Kyoto<br>\nFlavor: N\/A<br>\nSuitable for vegetarians: Yes<br>\nCommon Allergen(s): None<br>\nProduced by: Fukujuen<br>\n<br>\nFounded in 1790, Fukujuen is one of Japan's foremost tea producers.<br>\nWe are delighted to provide you with their famous sencha tea from the Uji, Kyoto in this month's gift box.<br>\nSencha is steamed green tea made from the Camellia Sinensis tea bushes. The leaves are picked by hand from areas with direct sunlight and are then steamed and to exposes enzymes to the air, speeding up the process of oxidation.<br>\nSensha has soft grassy notes, at times reminiscent of rice. Fresh and clear flavor it is a delightful refreshment making it very popular with Japanese people."
+            "description": "<p>Product of: Kyoto<br\/>Flavor: N\/A<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): None<br\/>Produced by: Fukujuen<br\/><br\/><br\/>Founded in 1790, Fukujuen is one of Japan's foremost tea producers.<br\/><br\/>We are delighted to provide you with their famous sencha tea from the Uji, Kyoto in this month's gift box.<br\/><br\/>Sencha is steamed green tea made from the Camellia Sinensis tea bushes. The leaves are picked by hand from areas with direct sunlight and are then steamed and to exposes enzymes to the air, speeding up the process of oxidation.<br\/><br\/>Sensha has soft grassy notes, at times reminiscent of rice. Fresh and clear flavor it is a delightful refreshment making it very popular with Japanese people.<\/p>"
           }
         }
       },
@@ -199,9 +201,9 @@
       ],
       "settings": {
         "color_scheme": "accent-1",
-        "padding_top": 100,
-        "padding_bottom": 100,
-        "show_atc": true
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "show_atc": false
       }
     },
     "past-selection": {

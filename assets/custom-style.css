@@ -215,7 +215,6 @@ div#Banner-template--16212336672988__16573486482bb6382c h2.banner__heading.h2 {
   }
 }
 
-
 /* Home End */
 
 /* Our Story Start */
@@ -383,6 +382,9 @@ ul#Slider-template--16289320403164__1658750301340e693b {
 .pro-box img {
   max-width: 100%;
 }
+.pas-box-page-sec img {
+  width: 100%;
+}
 .pas-box-page-sec img,
 .past-box-sec img {
   max-width: 100%;
@@ -440,6 +442,10 @@ p.book-btn {
 .slick-dots li.slick-active {
   padding: 6px;
   background: #000;
+}
+
+.slick-dots > li:only-child {
+  display: none;
 }
 
 /*instagram  home start */

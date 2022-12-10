@@ -24,7 +24,7 @@
           <div class="acc">
             <div class="acc-head">{{ block.settings.product_name }}</div>
             <div class="acc-content">
-              <p>{{ block.settings.description }}</p>
+              {{ block.settings.description }}
             </div>
           </div>
         </div>
@@ -156,8 +156,9 @@
           "label": "Product name"
         },
         {
-          "type": "textarea",
+          "type": "richtext",
           "id": "description",
+          "default": "<p>product description ...</p>",
           "label": "Description"
         }
       ]

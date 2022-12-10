@@ -21,7 +21,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/december-selection"
+            "button_link": "shopify:\/\/products\/january-selection"
           }
         }
       },
@@ -79,6 +79,16 @@
     "1657347429e10a4d6b": {
       "type": "multicolumn",
       "blocks": {
+        "1657347429059942fa-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Untitled_design.jpg",
+            "title": "December Shiwasu Selection",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/products\/december-selection"
+          }
+        },
         "1657347429059942fa-1": {
           "type": "column",
           "settings": {
@@ -88,21 +98,11 @@
             "link_label": "",
             "link": "shopify:\/\/products\/november-selection"
           }
-        },
-        "1657347429059942fa-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG_9160_16ff859c-cf5b-43d5-b43e-f812da7a1e48.jpg",
-            "title": "October Kannazuki Selection",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/products\/october-selection"
-          }
         }
       },
       "block_order": [
-        "1657347429059942fa-1",
-        "1657347429059942fa-0"
+        "1657347429059942fa-0",
+        "1657347429059942fa-1"
       ],
       "settings": {
         "title": "OUR PREVIOUS SELECTIONS",
@@ -147,7 +147,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "https:\/\/mizu-japan.com\/products\/october-box",
+            "button_link": "shopify:\/\/products\/january-selection",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",

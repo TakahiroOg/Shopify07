@@ -1,0 +1,236 @@
+{
+  "sections": {
+    "1659606110b6f596ab": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/main-image-january2023-gift-box-mizu-japan_jpg_d607602c-96f2-489b-a554-2127769e4676.jpg",
+        "image_overlay_opacity": 0,
+        "show_parallax": false,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "bottom": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c3f3b92a-769e-4dff-a720-fd065f0bebe1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "b8d28b0a-ba74-460f-add4-51d1f971c073": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "7c727d1b-a78e-4286-b7ee-eaa89ed26133": {
+          "type": "text",
+          "settings": {
+            "text": "YOUR GIFT BOX INCLUDES:",
+            "text_style": "body"
+          }
+        },
+        "5ceab50d-861e-4e16-a592-4c932a2acc39": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"ac_sec\">\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/226b30a0ead1bfc4be1abbbf7725d761.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>FOR LOVERS OF JAPANESE TEAS<\/h1>\n      <p>We offer a selection of the finest Japanese teas that pair perfectly with the content of your gift box.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/caf64c53219d6e036231124117a81fcd.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>GOURMET FOODS<\/h1>\n      <p>Each gift box contains gourmet foods from some of Kyoto's oldest and finest producers.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/2.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>LIFESTYLE GOODS<\/h1>\n      <p>We bring you exquisitely crafted Japanese lifestyle goods designed to complement your home and office.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/32f7500bb8e26d92e86e604cd8d7be1d.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>BEAUTIFULLY PRESENTED<\/h1>\n      <p>Each month's selection comes in a hand-made and beautifully presented gift box exclusive to Mizu Japan customers.<\/p>\n    <\/div>\n  <\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "c3f3b92a-769e-4dff-a720-fd065f0bebe1",
+        "b8d28b0a-ba74-460f-add4-51d1f971c073",
+        "caption",
+        "7c727d1b-a78e-4286-b7ee-eaa89ed26133",
+        "5ceab50d-861e-4e16-a592-4c932a2acc39"
+      ],
+      "settings": {
+        "product-title": "January Gift Box",
+        "divider-top-margin": 20,
+        "media_size": "medium",
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "add-to-cart": {
+      "type": "add-to-cart",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16596078958ea5a7db": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"cus-product-con page-width\">\n    <div class=\"product-title\">    \n<h1>{{ product.metafields.custom.product_title_2.value }}<\/h1>\n  <\/div>\n<div class=\"product-desc\">\n    {{ product.description }}\n  <\/div> \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "products-inside": {
+      "type": "products-inside",
+      "blocks": {
+        "483a0a81-35c0-4509-85a1-ae15caf13c62": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A1-issuo-chopsticks-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "ISSUO chopsticks",
+            "description": "<p>Product of: Fukui<br\/>Produced by: ISSUO<br\/><br\/>400 years of history and craftsmanship combine to bring you ISSUO chopsticks.<br\/>Layer upon layer of lacquer is carefully applied by artisans and finished with a polishing technique called \"migakidashi\".<br\/>The process of applying lacquer and letting it dry is repeated numerous times, until the craftsman is fully satisfied.<br\/>This process can take up to one and a half years making ISSUO chopsticks a true Japanese icon of perfection.<br\/><br\/>*Important Note* Each pair of chopsticks is uniquely crafted and as such the pattern, color, and size, will differ from those displayed in the photos.<br\/>Thank you for your understanding.<\/p>"
+          }
+        },
+        "3c3b4564-916a-4e99-9500-846dea346391": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B1-chopstick-rests-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "Chopstick rests",
+            "description": "<p>Product of: Kyoto<br\/>Produced by: Toutensei Kawasaki<br\/><br\/>These crane shaped chopstick rests are an exquisite work of craftsmanship.<br\/>Its simple yet elegant design is a joy to behold and invites you to pick it up to admire more closely.<br\/>Despite being a chopstick rest its of such beauty it can be displayed on it's own to bring a smile to yourself and admiring glances from others.<br\/><br\/>*Important Note* Each chopstick rest is uniquely crafted and as such the pattern and color will differ from those displayed in the photos.<br\/>Thank you for your understanding.<\/p>"
+          }
+        },
+        "03138678-fedc-44c8-9ccc-1e46faf422bf": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C1-minoyaki-dishes-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "Minoyaki dishes",
+            "description": "<p>Product of: Mino<br\/>Produced by: Toutensei Kawasaki<br\/>Size: 9.5 cm by 9.5 cm<br\/><br\/><br\/>Mino-yaki is a term for fine Japanese ceramics produced in the Tono region in the southern part of Gifu Prefecture.<br\/>The main reason Mino ware has is so sought after within Japan and worldwide is that the products have been segmented in each region of Tono where they are produced. <br\/>As each region has its own specialty each piece is especially unique. Today, Mino ware continues its 1,300-year-old tradition.<br\/>This month's offerings are all one of a kind as they are individually hand painted by artisans following in the traditions handed down over the generations.<br\/><br\/>*Important Note* Each pair of dishes are uniquely crafted and as such the pattern and color will differ from those displayed in the photos.<br\/>Thank you for your understanding.<\/p>"
+          }
+        },
+        "a59302cf-1c4f-4877-8ef5-6378504c0d08": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A2-oldnew-irodori-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "OldNew Irodori",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet and savory<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Wheat, Milk, Soy Sesame<br\/>Product of: Kyoto<br\/>Produced by: Kyojyurakuan<br\/><br\/><br\/>OldNew is a company with a mission to bring you traditional Japanese treats combined with a modern twist.<br\/>This delicious selection of treats which include black sugar, seaweed, soba and cinnammon flavors are offered in a beautiful tin box with a pattern with an interesting tale to tell!<br\/>The arrow shaped patterns that adorn the box date back to Japan's Edo Period at which time they represented always moving forward.<br\/>As such, the pattern was known to adorn wedding Kimonos so as to symbolize the beginning of a new life ahead and the leaving behind of one they would not return to.<\/p>"
+          }
+        },
+        "834497a1-8006-4be3-a7e0-789654ed7aff": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B2-soy-sauce-cashews-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "Soy Sauce Cashews",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Savory<br\/>Suitable for vegetarians: Yes<br\/>Common allergens: Wheat, Soy<br\/>Produced by: Mametomi Honpo<br\/><br\/>Similar to our November gift box offering of wasabi flavored pistachios, these delicious soy sauce flavored cashew nuts are packed with flavor and have a delightful crunchy texture.<br\/>Served with this month's accompanying green tea, they make an ideal mid-afternoon treat.<\/p>"
+          }
+        },
+        "e987fe75-b7bf-4682-b725-d61264250890": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C2-fukiyose-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "Fukiyose",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Wheat, Milk, Soy, Eggs, Tree Nuts<br\/>Produced by: Ukai<br\/><br\/><br\/>Fukiyose literally means ‘leaves of a variety of colors blown together by an autumn wind’.<br\/>As such, Japanese confectionaries, in various colors and flavors, are often called the same.<br\/>Like a jewel box of Japanese sweets these delightful candies have been a popular treat for generations.<br\/>Paired with the Goencha green tea accompanying this gift box, they make for a delightful afternoon treat.<\/p>"
+          }
+        },
+        "cf66c652-4344-4ac8-af99-c8ab820a64ef": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A3-awa-wasanbon-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "Awa Wasanbon",
+            "description": "<p>Product of: Hyogo<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Milk, Wheat, almond<br\/>Produced by: Shotani<br\/><br\/>Wasanbon is a premium candy originally produced in Kagawa on the island of Shikoku. It has a 400 year old history and is still very popular. Awa wasanbon however, is considered by some people to be the highest grade. Savor the refreshing sweetness that is slowly released. Paired with this month's sensha tea it tastes divine!<\/p>"
+          }
+        },
+        "1d01fae9-31b9-4265-bb83-ffeb03b8dcfd": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B3-cha-no-ka-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "CHA no KA",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Wheat, Milk, Soy, Eggs<br\/>Produced by: Malebranche<br\/>Product of: Kyoto<br\/>Produced by: Toutensei Kawasaki<br\/><br\/>It begins with carefully selecting tea leaves from the world renowned macha tea growing region of Uji, Kyoto.<br\/>The leaves are then ground by millstone, in the traditional method, before being used to carefully bake the cookies to perfection. A delicate layer of fine white chocolate is then added. We recommend pairing with the houjicha that also accompanies this gift box. Delightful!<\/p>"
+          }
+        },
+        "83216bf3-6bd9-424e-abb3-3ed1c78020cb": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C3-yuzu-kohaku-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "Yuzu Kohaku",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): None<br\/>Produced by: Kyoto Miyako<br\/><br\/>This agar confectionery is modeled after 'kohaku' which translates to amber, a precious jewel that encapsulates the ancient past.<br\/>Enjoy the crispy texture on the outside and the smooth texture on the inside with a delicious delicate yuzu flavoring.<\/p>"
+          }
+        },
+        "10d73338-1688-4748-89a6-41873daaad5b": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A4-kamogawa-sencha-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "Kamogawa Sencha",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Green tea and matcha combined<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): None<br\/>Produced by: Fukujuen<br\/>Product of: Kyoto<br\/><br\/>“Matcha Iri Sencha Kamogawa,” is a blend of sencha (traditional green tea) and matcha. It is a tea beloved by many in Japan due to its unique taste and texture on the palate. With its deep green color and unique flavor it reminds one of relaxing by the beautiful Kamo River that runs through central Kyoto.<\/p>"
+          }
+        },
+        "a55e1053-c8a9-4249-ac3e-ba5b201e7eb7": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C4-goencha-green-tea-mizu-japan-january-2023-gift-box.jpg",
+            "product_name": "Goencha Green Tea",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Green tea<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): None<br\/>Produced by: Goencha<br\/><br\/>Goencha was established in 1836 with a mission to bring tea to the masses! A most formidable challenge considering the popularity of tea in Japan then and now. <br\/>However, Goencha partnered with some of the oldest and most established tea companies across Kyoto (not only the city but the prefecture!) to bring you the best tea Kyoto has to offer. What makes Goencha's teas so very special aside, of course, from their refreshing flavors, is the novelty of their packaging which is offered in so many designs for all occasions.<br\/>We proudly present Goencha's popular green tea with a motif of Kyoto. Brew a cup and sit back and relax and let your mind wander through the ancient streets, temples, and shrines of this city of endless wonder.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "483a0a81-35c0-4509-85a1-ae15caf13c62",
+        "3c3b4564-916a-4e99-9500-846dea346391",
+        "03138678-fedc-44c8-9ccc-1e46faf422bf",
+        "a59302cf-1c4f-4877-8ef5-6378504c0d08",
+        "834497a1-8006-4be3-a7e0-789654ed7aff",
+        "e987fe75-b7bf-4682-b725-d61264250890",
+        "cf66c652-4344-4ac8-af99-c8ab820a64ef",
+        "1d01fae9-31b9-4265-bb83-ffeb03b8dcfd",
+        "83216bf3-6bd9-424e-abb3-3ed1c78020cb",
+        "10d73338-1688-4748-89a6-41873daaad5b",
+        "a55e1053-c8a9-4249-ac3e-ba5b201e7eb7"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "show_atc": true
+      }
+    },
+    "past-selection": {
+      "type": "past-selection",
+      "blocks": {
+        "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
+          "type": "product",
+          "settings": {
+            "product_title": "December Selection",
+            "product": "december-selection",
+            "product_img": "shopify:\/\/shop_images\/Untitled_design.jpg"
+          }
+        },
+        "f594ad3a-29d0-4df6-8063-51efa21e1308": {
+          "type": "product",
+          "settings": {
+            "product_title": "November Selection",
+            "product": "november-selection",
+            "product_img": "shopify:\/\/shop_images\/november-selection.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "4dffe16a-83f1-4d44-9720-2e7e59bba804",
+        "f594ad3a-29d0-4df6-8063-51efa21e1308"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "1659606110b6f596ab",
+    "main",
+    "add-to-cart",
+    "16596078958ea5a7db",
+    "products-inside",
+    "past-selection"
+  ]
+}
