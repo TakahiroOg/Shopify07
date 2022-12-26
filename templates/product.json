@@ -5,14 +5,16 @@
       "blocks": {
         "f334fc14-f4ad-4ded-bcbd-472c13ba81e4": {
           "type": "title",
-          "settings": {}
+          "settings": {
+          }
         },
         "85437f24-6c6f-4b6e-ad43-0c6a5f5f5e9e": {
           "type": "price",
-          "settings": {}
+          "settings": {
+          }
         },
         "3f2298a7-f7fc-4e46-a403-4c38aeec8c73": {
-          "type": "shopify://apps/seal-subscriptions-loyalty/blocks/subscription-widget/13b25004-a140-4ab7-b5fe-29918f759699",
+          "type": "shopify:\/\/apps\/seal-subscriptions-loyalty\/blocks\/subscription-widget\/13b25004-a140-4ab7-b5fe-29918f759699",
           "settings": {
             "product": "{{product}}"
           }
@@ -25,7 +27,8 @@
         },
         "a11eca51-0305-4f19-b9b7-986968dc86a5": {
           "type": "description",
-          "settings": {}
+          "settings": {
+          }
         }
       },
       "block_order": [
@@ -55,5 +58,8 @@
       }
     }
   },
-  "order": ["main", "add-to-cart"]
+  "order": [
+    "main",
+    "add-to-cart"
+  ]
 }
