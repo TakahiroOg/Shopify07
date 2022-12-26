@@ -209,6 +209,14 @@
     "past-selection": {
       "type": "past-selection",
       "blocks": {
+        "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
+          "type": "product",
+          "settings": {
+            "product_title": "January Selection",
+            "product": "january-selection",
+            "product_img": "shopify:\/\/shop_images\/main-image-january2023-gift-box-mizu-japan_jpg_2cb37e5b-4549-4ccc-bcc8-0e428b129a50.jpg"
+          }
+        },
         "f594ad3a-29d0-4df6-8063-51efa21e1308": {
           "type": "product",
           "settings": {
@@ -216,19 +224,11 @@
             "product": "november-selection",
             "product_img": "shopify:\/\/shop_images\/november-selection.jpg"
           }
-        },
-        "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
-          "type": "product",
-          "settings": {
-            "product_title": "October Selection",
-            "product": "october-selection",
-            "product_img": "shopify:\/\/shop_images\/past_box_main_page2_copy.jpg"
-          }
         }
       },
       "block_order": [
-        "f594ad3a-29d0-4df6-8063-51efa21e1308",
-        "4dffe16a-83f1-4d44-9720-2e7e59bba804"
+        "4dffe16a-83f1-4d44-9720-2e7e59bba804",
+        "f594ad3a-29d0-4df6-8063-51efa21e1308"
       ],
       "settings": {
         "padding_top": 88,

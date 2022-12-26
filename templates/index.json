@@ -21,7 +21,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/january-selection"
+            "button_link": "shopify:\/\/products\/february-如月-selection"
           }
         }
       },
@@ -147,7 +147,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/january-selection",
+            "button_link": "shopify:\/\/products\/february-如月-selection",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",
