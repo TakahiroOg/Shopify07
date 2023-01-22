@@ -60,7 +60,7 @@
         "5ceab50d-861e-4e16-a592-4c932a2acc39"
       ],
       "settings": {
-        "product-title": "January Gift Box",
+        "product-title": "Spring Gift Box",
         "divider-top-margin": 20,
         "media_size": "medium",
         "padding_top": 36,
@@ -163,7 +163,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/D1-macha-chocolate-mizu-japan-february-2023-gift-box.jpg",
             "product_name": "Macha Chocolate",
-            "description": "<p>Product of: Itohkyuemon<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: <br\/>Common allergens: Milk,Soy<br\/>Produced by: Itohkyuemon<br\/>Serving\/Pairing suggestion: Pairs perfectly with the Creamy Macha Latte.<br\/><br\/><br\/>These impeccable treats are made from a blend of the finest Belgian chocolate and Kyoto's very own Uji matcha tea.<br\/>These bite sized treats come in three flavors each containing slightly more matcha for a subtle change in both astringency and aroma.<br\/>Take time to savor each of the three individually wrapped carrés and savor the moment as you relax. We recommend pairing with the Creamy Macha Latte to make the experience tht much more heavenly!<\/p>"
+            "description": "<p>Product of: Itohkyuemon<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: <br\/>Common allergens: Milk,Soy<br\/>Produced by: Itohkyuemon<br\/>Serving\/Pairing suggestion: Pairs perfectly with the Creamy Macha Latte.<br\/><br\/><br\/>These impeccable treats are made from a blend of the finest Belgian chocolate and Kyoto's very own Uji matcha tea.<br\/>These bite sized treats come in three flavors each containing slightly more matcha for a subtle change in both astringency and aroma.<br\/>Take time to savor each of the three individually wrapped carrés and savor the moment as you relax. We recommend pairing with the Creamy Macha Latte to make the experience that much more heavenly!<\/p>"
           }
         },
         "a55e1053-c8a9-4249-ac3e-ba5b201e7eb7": {
@@ -195,7 +195,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/E2-hojicha-mizu-japan-february-2023-gift-box.jpg",
             "product_name": "Hojicha",
-            "description": "<p>Product of: Tsujiri<br\/>Flavor: sweet and smoky<br\/>Suitable for vegetarians: Yes<br\/>Common allergens: none<br\/>Produced by: Tsujiri<br\/>Serving\/Pairing suggestion: Pairs well with the Gion No Sato and the Yatsuhashi both of which accompany this month's gift box.<br\/><br\/>Tsujiri's hojicha tea is carefully roasted using Uji's unique sand roasting method.<br\/>First, the sand is heated, and the heat of the sand is used to roast the tea leaves, resulting in a fluffy and fragrant hojicha.<br\/>It has a roasted aroma and a mellow and refreshing flavor that you'll never tire of drinking.<br\/>As hojicha relatively contains contains little caffeine it's not only recommended when you want to take a break during the day but also in the evenings when winding down after a long day.<\/p>"
+            "description": "<p>Product of: Tsujiri<br\/>Flavor: sweet and smoky<br\/>Suitable for vegetarians: Yes<br\/>Common allergens: none<br\/>Produced by: Tsujiri<br\/>Serving\/Pairing suggestion: Pairs well with the Gion No Sato and the Yatsuhashi both of which accompany this month's gift box.<br\/><br\/>Tsujiri's hojicha tea is carefully roasted using Uji's unique sand roasting method.<br\/>First, the sand is heated, and the heat of the sand is used to roast the tea leaves, resulting in a fluffy and fragrant hojicha.<br\/>It has a roasted aroma and a mellow and refreshing flavor that you'll never tire of drinking.<br\/>As hojicha contains  relatively little caffeine it's not only recommended when you want to take a break at anytime but also in the evenings when winding down after a long day.<\/p>"
           }
         }
       },
@@ -228,7 +228,7 @@
         "f594ad3a-29d0-4df6-8063-51efa21e1308": {
           "type": "product",
           "settings": {
-            "product_title": "January Selection",
+            "product_title": "Winter Selection",
             "product": "january-selection",
             "product_img": "shopify:\/\/shop_images\/november-selection.jpg"
           }
@@ -236,7 +236,7 @@
         "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
           "type": "product",
           "settings": {
-            "product_title": "December Selection",
+            "product_title": "Fall Selection",
             "product": "december-selection",
             "product_img": "shopify:\/\/shop_images\/Untitled_design.jpg"
           }
