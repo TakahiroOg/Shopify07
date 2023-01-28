@@ -29,36 +29,26 @@
         "padding_bottom": 48
       }
     },
-    "bfa20593-44aa-4cc9-a60a-6fbdee515af3": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"pas-box-page\">\n<a href=\"\/products\/january-selection\">\t\n<div class=\"pas-box-page-sec\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/main-image-january2023-gift-box-mizu-japan_jpg_2cb37e5b-4549-4ccc-bcc8-0e428b129a50.jpg\"> <h4> Fuyu<\/h4><h3>Winter 冬 Selection<\/h3>\n\t<\/div>\n<\/a>\n<\/div>",
-        "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 0
-      }
-    },
     "b5dac0aa-bbae-4412-b9d6-aafd3e9d421c": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"pas-box-page\">\n<a href=\"\/products\/december-selection\">\t\n<div class=\"pas-box-page-sec\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/Untitled_design.jpg\"> <h4>Aki<\/h4><h3>Fall 秋 Selection<\/h3>\n\t<\/div>\n<\/a>\n<\/div>",
+        "custom_liquid": "<div class=\"pas-box-page\">\n<a href=\"\/products\/december-selection\">\t\n<div class=\"pas-box-page-sec\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/Untitled_design.jpg\"> <h4> Shiwasu<\/h4><h3>December 師走 Selection<\/h3>\n\t<\/div>\n<\/a>\n<\/div>",
         "color_scheme": "background-1",
-        "padding_top": 0,
+        "padding_top": 20,
         "padding_bottom": 0
       }
     },
     "1663594495550dddcd": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div class=\"pas-box-page\">\n<a href=\"\/products\/november-selection\">\t\n<div class=\"pas-box-page-sec\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/main-image-october2022-gift-box-mizu-japan_jpg_7d4beef5-3322-49c4-ae5c-fbcb69e57a94.jpg?v=1661498570\"> <h4> Natsu<\/h4><h3>Summer 夏 Selection<\/h3>\n\t<\/div>\n<\/a>\n<\/div>",
+        "custom_liquid": "<div class=\"pas-box-page\">\n<a href=\"\/products\/november-selection\">\t\n<div class=\"pas-box-page-sec\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/main-image-october2022-gift-box-mizu-japan_jpg_7d4beef5-3322-49c4-ae5c-fbcb69e57a94.jpg?v=1661498570\"> <h4> Shimotsuki<\/h4><h3>November 霜月 Selection<\/h3>\n\t<\/div>\n<\/a>\n<\/div>",
         "color_scheme": "background-1",
         "padding_top": 0,
-        "padding_bottom": 32
+        "padding_bottom": 0
       }
     },
     "16596982518c3eae10": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"pas-box-page\">\n<a href=\"https:\/\/mizu-japan.com\/products\/october-selection\">\t\n<div class=\"pas-box-page-sec\">\n\t\t<img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/aug.jpg?v=1661501151\"> <h4> Kannazuki<\/h4>\n<h3>October 神無月 \n Selection<\/h3>\n\t<\/div>\n<\/a>\n<\/div>",
         "color_scheme": "background-1",
@@ -90,7 +80,6 @@
   "order": [
     "main",
     "1659434366385eada9",
-    "bfa20593-44aa-4cc9-a60a-6fbdee515af3",
     "b5dac0aa-bbae-4412-b9d6-aafd3e9d421c",
     "1663594495550dddcd",
     "16596982518c3eae10",

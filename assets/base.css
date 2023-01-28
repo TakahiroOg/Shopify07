@@ -218,6 +218,11 @@ html.no-js .no-js-hidden {
   margin: 0 auto;
   padding: 0 1.5rem;
 }
+.page-width-wide {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
 
 .page-width-desktop {
   padding: 0;
@@ -1133,11 +1138,8 @@ summary::-webkit-details-marker {
     min-width: 35%;
   }
 
-  .grid--peek.slider .grid__item:first-of-type {
+  .grid--peek.slider .grid__item {
     margin-left: 1.5rem;
-  }
-
-  .grid--peek.slider .grid__item:last-of-type {
     margin-right: 1.5rem;
   }
 

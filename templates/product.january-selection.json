@@ -20,7 +20,6 @@
     },
     "main": {
       "type": "main-product",
-      "disabled": true,
       "blocks": {
         "c3f3b92a-769e-4dff-a720-fd065f0bebe1": {
           "type": "title",
@@ -70,7 +69,6 @@
     },
     "add-to-cart": {
       "type": "add-to-cart",
-      "disabled": true,
       "settings": {
         "padding_top": 20,
         "padding_bottom": 20
@@ -81,7 +79,7 @@
       "settings": {
         "custom_liquid": "<div class=\"cus-product-con page-width\">\n    <div class=\"product-title\">    \n<h1>{{ product.metafields.custom.product_title_2.value }}<\/h1>\n  <\/div>\n<div class=\"product-desc\">\n    {{ product.description }}\n  <\/div> \n<\/div>",
         "color_scheme": "background-1",
-        "padding_top": 36,
+        "padding_top": 24,
         "padding_bottom": 36
       }
     },
@@ -93,7 +91,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/A1-issuo-chopsticks-mizu-japan-january-2023-gift-box.jpg",
             "product_name": "ISSUO chopsticks",
-            "description": "<p>Product of: Fukui<br\/>Produced by: ISSUO<br\/><br\/>400 years of history and craftsmanship combine to bring you ISSUO chopsticks.<br\/>Layer upon layer of lacquer is carefully applied by artisans and finished with a polishing technique called \"migakidashi\".<br\/>The process of applying lacquer and letting it dry is repeated numerous times, until the craftsman is fully satisfied.<br\/>This process makes ISSUO chopsticks a true icon of Japanese perfection.<br\/><br\/>*Important Note* Each pair of chopsticks is uniquely crafted and as such the pattern, color, and size, will differ from those displayed in the photos.<br\/>Thank you for your understanding.<\/p>"
+            "description": "<p>Product of: Fukui<br\/>Produced by: ISSUO<br\/><br\/>400 years of history and craftsmanship combine to bring you ISSUO chopsticks.<br\/>Layer upon layer of lacquer is carefully applied by artisans and finished with a polishing technique called \"migakidashi\".<br\/>The process of applying lacquer and letting it dry is repeated numerous times, until the craftsman is fully satisfied.<br\/>This process can take up to one and a half years making ISSUO chopsticks a true Japanese icon of perfection.<br\/><br\/>*Important Note* Each pair of chopsticks is uniquely crafted and as such the pattern, color, and size, will differ from those displayed in the photos.<br\/>Thank you for your understanding.<\/p>"
           }
         },
         "3c3b4564-916a-4e99-9500-846dea346391": {
@@ -109,7 +107,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/C1-minoyaki-dishes-mizu-japan-january-2023-gift-box.jpg",
             "product_name": "Minoyaki dishes",
-            "description": "<p>Product of: Mino<br\/>Produced by: Toutensei Kawasaki<br\/>Size: 9.5 cm by 9.5 cm<br\/><br\/><br\/>Mino-yaki is a term for fine Japanese ceramics produced in the Tono region in the southern part of Gifu Prefecture.<br\/>The primary reason Mino ware is so sought after within Japan and worldwide is that the products have been segmented in each region of Tono where they are produced. <br\/>As each region has its own specialty each piece is especially unique. Today, Mino ware continues its 1,300-year-old tradition.<br\/>This month's offerings are all one of a kind as they are individually crafted by artisans following in the traditions handed down over the generations.<br\/><br\/>*Important Note* Each pair of dishes are uniquely crafted and as such the pattern and color will differ from those displayed in the photos.<br\/>Thank you for your understanding.<\/p>"
+            "description": "<p>Product of: Mino<br\/>Produced by: Toutensei Kawasaki<br\/>Size: 9.5 cm by 9.5 cm<br\/><br\/><br\/>Mino-yaki is a term for fine Japanese ceramics produced in the Tono region in the southern part of Gifu Prefecture.<br\/>The main reason Mino ware has is so sought after within Japan and worldwide is that the products have been segmented in each region of Tono where they are produced. <br\/>As each region has its own specialty each piece is especially unique. Today, Mino ware continues its 1,300-year-old tradition.<br\/>This month's offerings are all one of a kind as they are individually hand painted by artisans following in the traditions handed down over the generations.<br\/><br\/>*Important Note* Each pair of dishes are uniquely crafted and as such the pattern and color will differ from those displayed in the photos.<br\/>Thank you for your understanding.<\/p>"
           }
         },
         "a59302cf-1c4f-4877-8ef5-6378504c0d08": {
@@ -117,7 +115,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/A2-oldnew-irodori-mizu-japan-january-2023-gift-box.jpg",
             "product_name": "OldNew Irodori",
-            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet and savory<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Wheat, Milk, Soy Sesame<br\/>Produced by: Kyojyurakuan<br\/><br\/><br\/>OldNew is a company with a mission to bring you traditional Japanese treats combined with a modern twist.<br\/>This delicious selection of treats which include black sugar, seaweed, soba and cinnammon flavors are offered in a beautiful tin box with a pattern with an interesting tale to tell!<br\/>The arrow shaped patterns that adorn the box date back to Japan's Edo Period at which time they represented always moving forward.<br\/>As such, the pattern was known to adorn wedding Kimonos so as to symbolize the beginning of a new life ahead and the leaving behind of one they would not return to.<\/p>"
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet and savory<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Wheat, Milk, Soy Sesame<br\/>Product of: Kyoto<br\/>Produced by: Kyojyurakuan<br\/><br\/><br\/>OldNew is a company with a mission to bring you traditional Japanese treats combined with a modern twist.<br\/>This delicious selection of treats which include black sugar, seaweed, soba and cinnammon flavors are offered in a beautiful tin box with a pattern with an interesting tale to tell!<br\/>The arrow shaped patterns that adorn the box date back to Japan's Edo Period at which time they represented always moving forward.<br\/>As such, the pattern was known to adorn wedding Kimonos so as to symbolize the beginning of a new life ahead and the leaving behind of one they would not return to.<\/p>"
           }
         },
         "834497a1-8006-4be3-a7e0-789654ed7aff": {
@@ -149,7 +147,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/B3-cha-no-ka-mizu-japan-january-2023-gift-box.jpg",
             "product_name": "CHA no KA",
-            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Wheat, Milk, Soy, Eggs<br\/>Produced by: Malebranche<br\/><br\/>It begins with carefully selecting tea leaves from the world renowned macha tea growing region of Uji, Kyoto.<br\/>The leaves are then ground by millstone, in the traditional method, before being used to carefully bake the cookies to perfection. A delicate layer of fine white chocolate is then added. We recommend pairing with the houjicha that also accompanies this gift box. Delightful!<\/p>"
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Wheat, Milk, Soy, Eggs<br\/>Produced by: Malebranche<br\/>Product of: Kyoto<br\/>Produced by: Toutensei Kawasaki<br\/><br\/>It begins with carefully selecting tea leaves from the world renowned macha tea growing region of Uji, Kyoto.<br\/>The leaves are then ground by millstone, in the traditional method, before being used to carefully bake the cookies to perfection. A delicate layer of fine white chocolate is then added. We recommend pairing with the houjicha that also accompanies this gift box. Delightful!<\/p>"
           }
         },
         "83216bf3-6bd9-424e-abb3-3ed1c78020cb": {
@@ -165,7 +163,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/A4-kamogawa-sencha-mizu-japan-january-2023-gift-box.jpg",
             "product_name": "Kamogawa Sencha",
-            "description": "<p>Product of: Kyoto<br\/>Flavor: Green tea and matcha combined<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): None<br\/>Produced by: Fukujuen<br\/><br\/>“Matcha Iri Sencha Kamogawa,” is a blend of sencha (traditional green tea) and matcha. It is a tea beloved by many in Japan due to its unique taste and texture on the palate. With its deep green color and unique flavor it reminds one of relaxing by the beautiful Kamo River that runs through central Kyoto.<\/p>"
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Green tea and matcha combined<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): None<br\/>Produced by: Fukujuen<br\/>Product of: Kyoto<br\/><br\/>“Matcha Iri Sencha Kamogawa,” is a blend of sencha (traditional green tea) and matcha. It is a tea beloved by many in Japan due to its unique taste and texture on the palate. With its deep green color and unique flavor it reminds one of relaxing by the beautiful Kamo River that runs through central Kyoto.<\/p>"
           }
         },
         "a55e1053-c8a9-4249-ac3e-ba5b201e7eb7": {
@@ -194,7 +192,7 @@
         "color_scheme": "accent-1",
         "padding_top": 64,
         "padding_bottom": 64,
-        "show_atc": false
+        "show_atc": true
       }
     },
     "past-selection": {
@@ -203,7 +201,7 @@
         "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
           "type": "product",
           "settings": {
-            "product_title": "Fall Selection",
+            "product_title": "December Selection",
             "product": "december-selection",
             "product_img": "shopify:\/\/shop_images\/Untitled_design.jpg"
           }
@@ -211,7 +209,7 @@
         "f594ad3a-29d0-4df6-8063-51efa21e1308": {
           "type": "product",
           "settings": {
-            "product_title": "Summer Selection",
+            "product_title": "November Selection",
             "product": "november-selection",
             "product_img": "shopify:\/\/shop_images\/november-selection.jpg"
           }

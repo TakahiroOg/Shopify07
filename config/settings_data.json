@@ -107,7 +107,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "*FREE* International Shipping On All Orders!",
+              "text": "FREE INTERNATIONAL SHIPPING ON ALL ORDERS!",
               "color_scheme": "accent-1",
               "link": ""
             }
@@ -116,7 +116,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "Receive 15% OFF your February Gift Box for a limited time only! Click on 'SHOP NOW'",
+              "text": "25% OFF your December Gift Box for a *LIMITED TIME only*",
               "color_scheme": "background-1",
               "link": ""
             }
