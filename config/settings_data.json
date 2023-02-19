@@ -1,5 +1,6 @@
 {
   "current": {
+    "default_collection": "shopify:\/\/collections\/products-1",
     "colors_solid_button_labels": "#ffffff",
     "colors_accent_1": "#133362",
     "gradient_accent_1": "",
@@ -100,6 +101,7 @@
     "cart_type": "page",
     "show_vendor": false,
     "show_cart_note": false,
+    "cart_drawer_collection": "products-1",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
