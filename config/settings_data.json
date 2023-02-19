@@ -114,11 +114,10 @@
           },
           "546d88d0-44b3-4363-ad7b-ede1f716fe6d": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "Receive 15% OFF your February Gift Box for a limited time only! Click on 'SHOP NOW'",
+              "text": "Receive 10% off ALL orders for a limited time.",
               "color_scheme": "background-1",
-              "link": ""
+              "link": "shopify:\/\/products\/february-如月-selection"
             }
           }
         },
