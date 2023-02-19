@@ -213,7 +213,7 @@
           "type": "product",
           "settings": {
             "product_title": "Winter Selection",
-            "product": "january-selection",
+            "product": "winter-selection",
             "product_img": "shopify:\/\/shop_images\/main-image-january2023-gift-box-mizu-japan_jpg_2cb37e5b-4549-4ccc-bcc8-0e428b129a50.jpg"
           }
         },
@@ -221,7 +221,7 @@
           "type": "product",
           "settings": {
             "product_title": "Summer Selection",
-            "product": "november-selection",
+            "product": "summer-selection",
             "product_img": "shopify:\/\/shop_images\/november-selection.jpg"
           }
         }

@@ -21,7 +21,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/february-如月-selection"
+            "button_link": "shopify:\/\/products\/spring-selection"
           }
         }
       },
@@ -86,7 +86,7 @@
             "title": "Winter Selection",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/products\/january-selection"
+            "link": "shopify:\/\/products\/winter-selection"
           }
         },
         "1657347429059942fa-0": {
@@ -96,7 +96,7 @@
             "title": "Fall Selection",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/products\/december-selection"
+            "link": "shopify:\/\/products\/fall-selection"
           }
         }
       },
@@ -147,7 +147,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/february-如月-selection",
+            "button_link": "shopify:\/\/products\/spring-selection",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",

@@ -229,7 +229,7 @@
           "type": "product",
           "settings": {
             "product_title": "Winter Selection",
-            "product": "january-selection",
+            "product": "winter-selection",
             "product_img": "shopify:\/\/shop_images\/november-selection.jpg"
           }
         },
@@ -237,7 +237,7 @@
           "type": "product",
           "settings": {
             "product_title": "Fall Selection",
-            "product": "december-selection",
+            "product": "fall-selection",
             "product_img": "shopify:\/\/shop_images\/Untitled_design.jpg"
           }
         }
