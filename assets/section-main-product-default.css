@@ -1311,3 +1311,45 @@ a.product__text {
   gap: 15px;
   margin-bottom: 1rem;
 }
+
+/* Sticky ATC */
+#sticky-atc {
+  display: none;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+}
+.show {
+  display: block !important;
+}
+@media screen and (min-width: 750px) {
+  #sticky-atc {
+    display: none !important;
+  }
+}
+.sticky-form-wrapper {
+  background-color: #fff;
+  box-shadow: 0 0 10px 0 rgb(0 0 0 / 9%);
+}
+.sticky-form {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 14px 15px;
+}
+.sticky-form .get-btn {
+  font-size: 15px;
+  width: 100%;
+}
+.sticky-form .product-form__input {
+  margin: 0;
+}
+.sticky-form .product-form__input .select__select {
+  padding-left: .5rem;
+}
+.sticky-form-select {
+  width: calc(100vw - 160px - 2.125rem);
+  display: block;
+}
