@@ -82,11 +82,11 @@
         "1657347429059942fa-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/main-image-january2023-gift-box-mizu-japan_jpg_2cb37e5b-4549-4ccc-bcc8-0e428b129a50.jpg",
-            "title": "Winter Selection",
+            "image": "shopify:\/\/shop_images\/november-selection.jpg",
+            "title": "November Shimotsuki Selection",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/products\/winter-selection"
+            "link": "shopify:\/\/products\/november-selection"
           }
         },
         "1657347429059942fa-0": {
@@ -97,16 +97,6 @@
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/products\/fall-selection"
-          }
-        },
-        "1657347429059942fa-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/november-selection.jpg",
-            "title": "November Shimotsuki Selection",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/products\/november-selection"
           }
         }
       },

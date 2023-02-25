@@ -21,6 +21,7 @@
         },
         "227f6a88-c4f2-4cd8-a6d9-bf770e2af22a": {
           "type": "quantity_selector",
+          "disabled": true,
           "settings": {
           }
         },
