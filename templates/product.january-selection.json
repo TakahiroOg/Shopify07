@@ -201,16 +201,16 @@
         "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
           "type": "product",
           "settings": {
-            "product_title": "December Selection",
-            "product": "december-selection",
+            "product_title": "Fall Selection",
+            "product": "fall-selection",
             "product_img": "shopify:\/\/shop_images\/Untitled_design.jpg"
           }
         },
         "f594ad3a-29d0-4df6-8063-51efa21e1308": {
           "type": "product",
           "settings": {
-            "product_title": "November Selection",
-            "product": "november-selection",
+            "product_title": "Summer Selection",
+            "product": "summer-selection",
             "product_img": "shopify:\/\/shop_images\/november-selection.jpg"
           }
         }

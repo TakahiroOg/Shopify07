@@ -21,7 +21,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/january-selection"
+            "button_link": "shopify:\/\/products\/spring-selection"
           }
         }
       },
@@ -79,6 +79,16 @@
     "1657347429e10a4d6b": {
       "type": "multicolumn",
       "blocks": {
+        "1657347429059942fa-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/main-image-january2023-gift-box-mizu-japan_jpg_2cb37e5b-4549-4ccc-bcc8-0e428b129a50.jpg",
+            "title": "Winter Selection",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/products\/winter-selection"
+          }
+        },
         "1657347429059942fa-0": {
           "type": "column",
           "settings": {
@@ -86,7 +96,7 @@
             "title": "December Shiwasu Selection",
             "text": "",
             "link_label": "",
-            "link": "shopify:\/\/products\/december-selection"
+            "link": "shopify:\/\/products\/fall-selection"
           }
         },
         "1657347429059942fa-1": {
@@ -147,7 +157,7 @@
           "type": "button",
           "settings": {
             "button_label": "SHOP NOW",
-            "button_link": "shopify:\/\/products\/january-selection",
+            "button_link": "shopify:\/\/products\/spring-selection",
             "button_style_secondary": true,
             "button_label_2": "",
             "button_link_2": "",

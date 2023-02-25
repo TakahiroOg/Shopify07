@@ -8,6 +8,16 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+    "name": "Default Collection",
+    "settings": [
+      {
+        "type": "url",
+        "id": "default_collection",
+        "label": "default collection"
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {

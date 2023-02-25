@@ -1,0 +1,263 @@
+{
+  "sections": {
+    "1659606110b6f596ab": {
+      "type": "image-banner",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/main-image-february-2023-gift-box-mizu-japan_jpg.jpg",
+        "image_overlay_opacity": 0,
+        "show_parallax": false,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "bottom": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "c3f3b92a-769e-4dff-a720-fd065f0bebe1": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "b8d28b0a-ba74-460f-add4-51d1f971c073": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "{{ product.metafields.descriptors.subtitle.value }}",
+            "text_style": "subtitle"
+          }
+        },
+        "7c727d1b-a78e-4286-b7ee-eaa89ed26133": {
+          "type": "text",
+          "settings": {
+            "text": "YOUR GIFT BOX INCLUDES:",
+            "text_style": "body"
+          }
+        },
+        "5ceab50d-861e-4e16-a592-4c932a2acc39": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"ac_sec\">\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/226b30a0ead1bfc4be1abbbf7725d761.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>FOR LOVERS OF JAPANESE TEAS<\/h1>\n      <p>We offer a selection of the finest Japanese teas that pair perfectly with the content of your gift box.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/caf64c53219d6e036231124117a81fcd.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>GOURMET FOODS<\/h1>\n      <p>Each gift box contains gourmet foods from some of Kyoto's oldest and finest producers.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/2.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>LIFESTYLE GOODS<\/h1>\n      <p>We bring you exquisitely crafted Japanese lifestyle goods designed to complement your home and office.<\/p>\n    <\/div>\n  <\/div>\n  <div class=\"ac_sec_mid\">\n    <div class=\"icon_left_sec\">\n      <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0630\/3157\/4748\/files\/32f7500bb8e26d92e86e604cd8d7be1d.jpg?v=1661668495\">\n    <\/div>\n    <div class=\"text_right_sec\">\n      <h1>BEAUTIFULLY PRESENTED<\/h1>\n      <p>Each month's selection comes in a hand-made and beautifully presented gift box exclusive to Mizu Japan customers.<\/p>\n    <\/div>\n  <\/div>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "c3f3b92a-769e-4dff-a720-fd065f0bebe1",
+        "b8d28b0a-ba74-460f-add4-51d1f971c073",
+        "caption",
+        "7c727d1b-a78e-4286-b7ee-eaa89ed26133",
+        "5ceab50d-861e-4e16-a592-4c932a2acc39"
+      ],
+      "settings": {
+        "product-title": "Spring Gift Box",
+        "divider-top-margin": 20,
+        "media_size": "medium",
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "add-to-cart": {
+      "type": "add-to-cart",
+      "settings": {
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16596078958ea5a7db": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"cus-product-con page-width\">\n    <div class=\"product-title\">    \n<h1>{{ product.metafields.custom.product_title_2.value }}<\/h1>\n  <\/div>\n<div class=\"product-desc\">\n    {{ product.description }}\n  <\/div> \n<\/div>",
+        "color_scheme": "background-1",
+        "padding_top": 24,
+        "padding_bottom": 36
+      }
+    },
+    "products-inside": {
+      "type": "products-inside",
+      "blocks": {
+        "483a0a81-35c0-4509-85a1-ae15caf13c62": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A1-incense-dish-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Incense Dish",
+            "description": "<p>Product of: Kyoto<br\/>Produced by: Kyūkyodō<br\/><br\/>From Kyūkyodō, founded in 1663 and once the official stationer to the Imperial House of Japan, comes this delighful rabbit themed incense holder with matching dish. The ceramic bunny is a joy to behold with its adorable little eyes and delicate pink ears whose color matches the accompanying dish. Whether used with the accompanying insence or simply displayed as is it's assured to brighten up any bookshelf, coffee table or mantle piece.<\/p>"
+          }
+        },
+        "3c3b4564-916a-4e99-9500-846dea346391": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A2-insence-sticke-herb-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Insence Sticks (Herb)",
+            "description": "<p>Product of: Kyoto<br\/>Produced by: Kousaido<br\/>Details: Approximately 90 7cm sticks. <br\/><br\/>Kousaido creates soothing blends of incense based on traditional techniques with a modern twist.<br\/>Made from the finest natural ingredients which offers a stylish and delicate aroma. These herb scented insence sticks are ideal for use with this month's accompanying rabbit motif incense holder and will bring you an atmosphere of calm and relaxation.<\/p>"
+          }
+        },
+        "03138678-fedc-44c8-9ccc-1e46faf422bf": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/A3-nuno-kougou-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Nuno-Kougou",
+            "description": "<p>Product of: Kyoto<br\/>Produced by: Yamadamatsu Incense-Wood Co. Ltd<br\/><br\/>Nuno-Kougou, or twisting jewelry box, is a small traditional case where the body and lid are one.<br\/>Open by gently twisting and extending the body and top in opposite directions to reveal a secret compartment.<br\/>Originally used to carry a precious ornament or fragrance pouches they are made with 'nishijin-ori', a traditional and exquisite textile produced in the Nishijin district of Kamigyō-ku in Kyoto.<\/p>"
+          }
+        },
+        "a59302cf-1c4f-4877-8ef5-6378504c0d08": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B1-traditional-shiori-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Traditional Shiori",
+            "description": "<p>Product of: Kyoto<br\/>Produced by: Kyūkyodō<br\/><br\/>Also from Kyūkyodō, one of Japan's foremost stores specializing in paper goods and incense, comes this delightful set of beautiful bookmarks. Made from traditional washi paper, which uses local fiber and is processed by hand, each has a unique design. Keep them all for yourself or share them with friends and family. Either way they'll be cherished for years to come.<br\/><br\/>Please note: The patterns may vary from those displayed based on availability. Your understandng is appreciated. Thank you.<\/p>"
+          }
+        },
+        "834497a1-8006-4be3-a7e0-789654ed7aff": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B2-macha-cookies-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Macha Cookies",
+            "description": "<p>Product of: Kyoto <br\/>Flavor: Sweet<br\/>Suitable for vegetarians: ????<br\/>Common Allergen(s): Egg,Wheat,Milk<br\/>Produced by: Tsujiri<br\/>Serving\/pairing suggestion: Pair with Creamy Macha Latte.<br\/><br\/>Tsujiri is a long-established store that continues the tradition of Japanese tea culture, and conveys that spirit to the present day.<br\/>In addition to traditional teas they create exceprtional snacks such as these playful langue de chat cookies.<br\/>Sandwiched between the two crisp outer cookies can be found delicious macha chocolate.<br\/>The matcha, made from Uji tea, has been whisked to perfection to give it a light but distinctly macha flavor that doesn't overwhelm the palate.<br\/>Pair with the Creamy Macha Latte that accompanies this month's gift box and you'll be transported to heaven!<\/p>"
+          }
+        },
+        "e987fe75-b7bf-4682-b725-d61264250890": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/B3-hon-warabimochi-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Hon Warabimochi",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common allergens: Soy<br\/>Produced by: Oimatsu<br\/><br\/>Warabi-mochi is a Japanese sweet made of bracken starch. It is often coated with toasted soybean flour and has a jelly-like texture. Perfect as a light after dinner sweet.<br\/>It is also especially popular during the summer season and pairs well with sensha tea.<\/p>"
+          }
+        },
+        "cf66c652-4344-4ac8-af99-c8ab820a64ef": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C1-gion-no-sato-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Gion No Sato",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: <br\/>Common allergens: Wheat, Egg, Milk<br\/>Produced by: Gion tsujiri<br\/><br\/>Gion no Sato is a popular long-selling Gion Tsujiri (est. 1860) matcha confectionery, which is created by wrapping white cream with a gentle sweetness in a thinly baked senbei roll. The mere contrast of the white cream and vivid green matcha color of the outer layer excites the taste buds.<br\/>The gentle sweetness of the white cream and the lingering scent of tea spread softly across the palate as you enjoy this delighful and unique treat from one of Kyoto's leading purveyors of the finest foods.<\/p>"
+          }
+        },
+        "1d01fae9-31b9-4265-bb83-ffeb03b8dcfd": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C2-yatsuhashi-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Yatsuhashi",
+            "description": "<p>Product of: Izutsu Yatsuhashi<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common allergens: Soy, Sesame<br\/>Produced by: Izutsu Yatsuhashi<br\/>Serving\/Pairing suggestion: Recommended with ice cream!<br\/><br\/><br\/>Most imagine a triangular shaped soft treat when they think of yatsuhashi, however the original method was to bake them in to a delicate arch.<br\/>This version is said to have been sold to visitors and pilgrims on their way to Kyoto's famous Shogo-in Temple.<br\/>Yatsuhashi is a perennial favorite across Japan for all ages due to its sweet taste with a hint of cinnammon. It is still made by hand in Kyoto's traditional shops and a near neccessary purchase for Japanese folk visiting Kyoto to take back home with them as a souvenier to family mmebers and coworkers (as is still the tradition when travelling outside one's hometown in Japan). We recommend serving with vanilla ice cream for a special treat!<\/p>"
+          }
+        },
+        "83216bf3-6bd9-424e-abb3-3ed1c78020cb": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/C3-hana-kazura-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Hana Kazura",
+            "description": "<p>Product of: Kyoto <br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Soy<br\/>Produced by: Kyoto Miyako<br\/><br\/>Hana Kazura is a Japanese kohaku (amber) confectionery that is a traditional Japanese sweet containing large azuki beans.<br\/>Kyoto sweets are popular for their modest and elegant sweetness. The surface of the amber confectionery is dry and crunchy, yet the inside of the confectionery has a soft texture and elegant sweetness.<br\/>It is also characterized by being handmade by skilled confectioners using techniques handed down over generations without using synthetic preservatives or colors for a 100% natural treat.<\/p>"
+          }
+        },
+        "10d73338-1688-4748-89a6-41873daaad5b": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D1-macha-chocolate-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Macha Chocolate",
+            "description": "<p>Product of: Itohkyuemon<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: <br\/>Common allergens: Milk,Soy<br\/>Produced by: Itohkyuemon<br\/>Serving\/Pairing suggestion: Pairs perfectly with the Creamy Macha Latte.<br\/><br\/><br\/>These impeccable treats are made from a blend of the finest Belgian chocolate and Kyoto's very own Uji matcha tea.<br\/>These bite sized treats come in three flavors each containing slightly more matcha for a subtle change in both astringency and aroma.<br\/>Take time to savor each of the three individually wrapped carrés and savor the moment as you relax. We recommend pairing with the Creamy Macha Latte to make the experience that much more heavenly!<\/p>"
+          }
+        },
+        "a55e1053-c8a9-4249-ac3e-ba5b201e7eb7": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D2-konpeito-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Konpeitō",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common allergens: None<br\/>Produced by: Mametomi Honpo<br\/><br\/>Konpeitō candies have been popular amongst both young and old in Japan for hundreds of years. They take the form of small spheres with a bumpy surface, and come in a variety of colors and flavors.<br\/>Konpeitō is often used for celebrations such as marriages and childbirth where they are gifted in elaborate candy boxes called a 'bonbonniere'.<br\/>We are sure that you too will come to love the delicious simplicity of these traditional candies beloved by Japanese people.<\/p>"
+          }
+        },
+        "c90a93be-3525-46c2-9aca-b86c03322b6c": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/D3-caramel-karinto-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Caramel Karinto",
+            "description": "<p>Product of: Tokyo<br\/>Flavor: Sweet<br\/>Suitable for vegetarians: Yes<br\/>Common Allergen(s): Wheat, Milk, Soy<br\/>Produced by: Azabu Karinto<br\/><br\/>Karinto is a traditional Japanese snack food. Sweet and deep-fried, it is made primarily of flour, yeast, and brown sugar.<br\/>Zarame Karinto has the special added ingredient of 'zarame' which is a coarse brown sugar coating the treat. Its color comes from a special process where caramel is added giving it a richer flavor. Karinto comes in many varieties with 'zazame' being one of the most popular. You're guaranteed to enjoy its subtle sweetness as many generations of Japanese have.<br\/>Pairing suggestion: We recommend pairing with the Hochija tea which accompanies this month's selection.<\/p>"
+          }
+        },
+        "686b1e32-d4e7-4334-93e9-23223e052620": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/E1-creamy-macha-latte-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Creamy Macha Latte",
+            "description": "<p>Product of: Kyoto<br\/>Flavor: Green tea<br\/>Suitable for vegetarians: ?<br\/>Common Allergen(s): Milk<br\/>Produced by: Tsujiri<br\/><br\/>Founded in 1860, Tsujiri is one of Kyoto's foremost green tea specialists. For over 170 years they have been working tirelessly to offer the very best of Japanese teas and green tea from Uji in particular.<br\/>To this end they crafted this delighful Creamy Matcha Latte conveniently packaged in individual sachets in order to be enjoyed anywhere.<br\/>This modern take on a traditional tea won't leave you wanting with it's delicious creamy flavor blended to perfection with the the very finest tea from Uji. Enjoy at home, at work or anywhere you desire. Wherever you decide to, we recommend enjoying it with the macha flavored langue de chat cookies that are also included in this month's offering!<\/p>"
+          }
+        },
+        "931fa730-e0f5-410f-ac1d-61afdf12d928": {
+          "type": "product",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/E2-hojicha-mizu-japan-february-2023-gift-box.jpg",
+            "product_name": "Hojicha",
+            "description": "<p>Product of: Tsujiri<br\/>Flavor: sweet and smoky<br\/>Suitable for vegetarians: Yes<br\/>Common allergens: none<br\/>Produced by: Tsujiri<br\/>Serving\/Pairing suggestion: Pairs well with the Gion No Sato and the Yatsuhashi both of which accompany this month's gift box.<br\/><br\/>Tsujiri's hojicha tea is carefully roasted using Uji's unique sand roasting method.<br\/>First, the sand is heated, and the heat of the sand is used to roast the tea leaves, resulting in a fluffy and fragrant hojicha.<br\/>It has a roasted aroma and a mellow and refreshing flavor that you'll never tire of drinking.<br\/>As hojicha contains  relatively little caffeine it's not only recommended when you want to take a break at anytime but also in the evenings when winding down after a long day.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "483a0a81-35c0-4509-85a1-ae15caf13c62",
+        "3c3b4564-916a-4e99-9500-846dea346391",
+        "03138678-fedc-44c8-9ccc-1e46faf422bf",
+        "a59302cf-1c4f-4877-8ef5-6378504c0d08",
+        "834497a1-8006-4be3-a7e0-789654ed7aff",
+        "e987fe75-b7bf-4682-b725-d61264250890",
+        "cf66c652-4344-4ac8-af99-c8ab820a64ef",
+        "1d01fae9-31b9-4265-bb83-ffeb03b8dcfd",
+        "83216bf3-6bd9-424e-abb3-3ed1c78020cb",
+        "10d73338-1688-4748-89a6-41873daaad5b",
+        "a55e1053-c8a9-4249-ac3e-ba5b201e7eb7",
+        "c90a93be-3525-46c2-9aca-b86c03322b6c",
+        "686b1e32-d4e7-4334-93e9-23223e052620",
+        "931fa730-e0f5-410f-ac1d-61afdf12d928"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "padding_top": 64,
+        "padding_bottom": 64,
+        "show_atc": true
+      }
+    },
+    "past-selection": {
+      "type": "past-selection",
+      "blocks": {
+        "f594ad3a-29d0-4df6-8063-51efa21e1308": {
+          "type": "product",
+          "settings": {
+            "product_title": "Winter Selection",
+            "product": "winter-selection",
+            "product_img": "shopify:\/\/shop_images\/november-selection.jpg"
+          }
+        },
+        "4dffe16a-83f1-4d44-9720-2e7e59bba804": {
+          "type": "product",
+          "settings": {
+            "product_title": "Fall Selection",
+            "product": "fall-selection",
+            "product_img": "shopify:\/\/shop_images\/Untitled_design.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "f594ad3a-29d0-4df6-8063-51efa21e1308",
+        "4dffe16a-83f1-4d44-9720-2e7e59bba804"
+      ],
+      "settings": {
+        "padding_top": 40,
+        "padding_bottom": 64
+      }
+    }
+  },
+  "order": [
+    "1659606110b6f596ab",
+    "main",
+    "add-to-cart",
+    "16596078958ea5a7db",
+    "products-inside",
+    "past-selection"
+  ]
+}
