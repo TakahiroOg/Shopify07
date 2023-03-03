@@ -350,12 +350,6 @@
     rgba(var(--color-shadow), var(--text-boxes-shadow-opacity));
 }
 
-@media screen and (min-width: 990px) {
-  .image-with-text__content {
-    padding: 6rem 0 7rem;
-  }
-}
-
 .image-with-text__content > * + * {
   margin-top: 2rem;
 }

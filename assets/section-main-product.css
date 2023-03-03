@@ -1263,7 +1263,7 @@ a.product__text {
   top: calc(50% - 22px);
 }
 .slider-button--next {
-  right: 0;
+  right: .5rem;
 }
 .slider-button .icon {
   height: 1.5rem !important;

@@ -431,21 +431,6 @@
       });
     });
 
-    // Show Sticky ATC on Scroll past the ATC Button
-    const atcWrapper = document.querySelector('[data-sticky-atc-wrapper]')
-    const targetATCButtons = document.querySelector('[data-payment-button]')
-    const intersectionObserver = new IntersectionObserver(function(entries) {
-        if(entries[0].isIntersecting) {
-            if(atcWrapper.classList.contains('show')) {
-                atcWrapper.classList.remove('show')
-            }
-        } else if(entries[0].isIntersecting === false) {
-            if(atcWrapper.classList.contains('show') === false) {
-                atcWrapper.classList.add('show')
-            }
-        }
-    })
-    intersectionObserver.observe(targetATCButtons);
   </script>
 
   {%- liquid

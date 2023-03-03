@@ -21,7 +21,7 @@
             {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
             <div class="sealsubs-target-element" data-product="{{ product | json | escape }}" data-handle="{{ product.handle }}"></div>
             <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
-            <div class="b-get-btn">
+            <div data-payment-button class="b-get-btn">
               <button type="submit" name="add" class="get-btn button"
                 {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
                 <span>
@@ -36,6 +36,42 @@
                 </div>
               </button>
             </div>
+            <div data-sticky-atc-wrapper id="sticky-atc" class="container sticky-form-wrapper">
+              <div class="sticky-form">
+                {%- unless product.has_only_default_variant -%}
+                <div class="sticky-form-select select">
+                  <variant-selects class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
+                    {%- for option in product.options_with_values -%}
+                      <div class="product-form__input product-form__input--dropdown">
+                        <div class="select">
+                          <select id="Option-{{ section.id }}-{{ forloop.index0 }}"
+                            class="select__select"
+                            name="options[{{ option.name | escape }}]"
+                            form="{{ product_form_id }}"
+                          >
+                            {%- for value in option.values -%}
+                              <option value="{{ value | escape }}" {% if option.selected_value == value %}selected="selected"{% endif %}>
+                                {{ value }}
+                              </option>
+                            {%- endfor -%}
+                          </select>
+                          {% render 'icon-caret' %}
+                        </div>
+                      </div>
+                    {%- endfor -%}
+  
+                    <script type="application/json">
+                      {{ product.variants | json }}
+                    </script>
+                  </variant-selects>
+                </div>
+                {%- endunless -%}
+                <button type="submit" name="add" class="button get-btn"
+                  {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}>
+                  <span>ADD TO CART</span>
+                </button>
+              </div>
+            </div>
             {%- endform -%}
           </product-form>
         </div>
@@ -43,6 +79,28 @@
     </div>
   </div>
 </section>
+
+<script>
+  // Show Sticky ATC on Scroll past the ATC Button
+  const atcWrapper = document.querySelector('[data-sticky-atc-wrapper]')
+  const targetATCButtons = document.querySelector('[data-payment-button]')
+
+  const intersectionObserver = new IntersectionObserver(function(entries) {
+    const target = targetATCButtons.getBoundingClientRect().top; 
+    if(entries[0].isIntersecting) {
+        if(atcWrapper.classList.contains('show')) {
+            atcWrapper.classList.remove('show')
+        }
+    } else if(entries[0].isIntersecting === false && target < 0) {
+        if(atcWrapper.classList.contains('show') === false) {
+            atcWrapper.classList.add('show')
+        }
+    }
+  })
+  intersectionObserver.observe(targetATCButtons);
+
+</script>
+
 {% schema %}
 {
   "name": "Add to cart",

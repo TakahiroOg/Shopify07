@@ -72,23 +72,59 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 0,
+        "padding_top": 32,
         "padding_bottom": 52
+      }
+    },
+    "6e9a7658-3bc7-4475-99a2-b65fb7864424": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16772665114844__6e9a7658-3bc7-4475-99a2-b65fb7864424-1677852714f6525db5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "A Fresh Start",
+            "heading_size": "h1"
+          }
+        },
+        "template--16772665114844__6e9a7658-3bc7-4475-99a2-b65fb7864424-1677852714f6525db5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>From simple rituals to special occasions, our marketplace has the perfect finds to elevate the everyday.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16772665114844__6e9a7658-3bc7-4475-99a2-b65fb7864424-1677852714f6525db5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP HOMEWARE",
+            "button_link": "shopify:\/\/collections\/homeware"
+          }
+        }
+      },
+      "block_order": [
+        "template--16772665114844__6e9a7658-3bc7-4475-99a2-b65fb7864424-1677852714f6525db5-0",
+        "template--16772665114844__6e9a7658-3bc7-4475-99a2-b65fb7864424-1677852714f6525db5-1",
+        "template--16772665114844__6e9a7658-3bc7-4475-99a2-b65fb7864424-1677852714f6525db5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/homepage.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_center": false,
+        "mobile_content_alignment": "center",
+        "padding_top": 24,
+        "padding_bottom": 24
       }
     },
     "1657347429e10a4d6b": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
-        "1657347429059942fa-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/november-selection.jpg",
-            "title": "November Shimotsuki Selection",
-            "text": "",
-            "link_label": "",
-            "link": "shopify:\/\/products\/november-selection"
-          }
-        },
         "1657347429059942fa-0": {
           "type": "column",
           "settings": {
@@ -97,6 +133,16 @@
             "text": "",
             "link_label": "",
             "link": "shopify:\/\/products\/fall-selection"
+          }
+        },
+        "1657347429059942fa-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/november-selection.jpg",
+            "title": "November Shimotsuki Selection",
+            "text": "",
+            "link_label": "",
+            "link": "shopify:\/\/products\/november-selection"
           }
         }
       },
@@ -233,6 +279,7 @@
   "order": [
     "166045115415dafe64",
     "16573478657360bcaa",
+    "6e9a7658-3bc7-4475-99a2-b65fb7864424",
     "1657347429e10a4d6b",
     "1659951699d2820ed5",
     "166044990474ae38b7",
