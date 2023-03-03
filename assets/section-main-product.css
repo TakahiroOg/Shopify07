@@ -21,18 +21,6 @@
 }
 
 @media screen and (min-width: 750px) {
-  .product--thumbnail .product__media-gallery,
-  .product--thumbnail_slider .product__media-gallery,
-  .product--stacked .product__info-container--sticky {
-    display: block;
-    position: sticky;
-    top: 3rem;
-    z-index: 2;
-  }
-
-  .product--thumbnail .thumbnail-list {
-    padding-right: var(--media-shadow-horizontal-offset);
-  }
 
   .product__info-wrapper {
     padding-left: 5rem;
@@ -525,11 +513,6 @@ a.product__text {
     padding-right: calc(
       var(--media-shadow-horizontal-offset) * var(--media-shadow-visible)
     );
-  }
-
-  .product--thumbnail .product__media-item:not(.is-active),
-  .product--thumbnail_slider .product__media-item:not(.is-active) {
-    display: none;
   }
 
   .product-media-modal__content
@@ -1058,10 +1041,6 @@ a.product__text {
 }
 
 @media screen and (min-width: 750px) {
-  .product--thumbnail_slider .thumbnail-slider {
-    display: flex;
-    align-items: center;
-  }
 
   .thumbnail-slider .thumbnail-list.slider--tablet-up {
     display: flex;
@@ -1074,24 +1053,8 @@ a.product__text {
     display: none;
   }
 
-  .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
-    width: calc(25% - 0.8rem);
-  }
-
   .product--thumbnail_slider .slider-mobile-gutter .slider-button {
     display: flex;
-  }
-}
-
-@media screen and (min-width: 900px) {
-  .product--small
-    .thumbnail-list.slider--tablet-up
-    .thumbnail-list__item.slider__slide {
-    width: calc(25% - 0.8rem);
-  }
-
-  .thumbnail-list.slider--tablet-up .thumbnail-list__item.slider__slide {
-    width: calc(20% - 0.8rem);
   }
 }
 
@@ -1268,4 +1231,40 @@ a.product__text {
   align-items: center;
   gap: 15px;
   margin-bottom: 1rem;
+}
+
+.product slider-component .thumbnail-list li {
+  height: 12px;
+  width: 12px;
+}
+.thumbnail {
+  border-radius: 12px;
+  color: #b3b3b3;
+  background-color: #b3b3b3;
+}
+.thumbnail-slider .thumbnail-list.slider {
+  display: flex;
+  padding: 0.5rem;
+  flex: 1;
+  scroll-padding-left: 0.5rem;
+  justify-content: center;
+}
+.product slider-component .thumbnail-list button img, .product slider-component .thumbnail-list li .thumbnail__badge {
+  display: none;
+}
+.product slider-component .thumbnail-list button[aria-current] {
+  background-color: rgb(var(--color-base-accent-2));
+  border-color: rgb(var(--color-base-accent-2));
+  opacity: 1;
+}
+
+.slider-button {
+  position:absolute;
+  top: calc(50% - 22px);
+}
+.slider-button--next {
+  right: 0;
+}
+.slider-button .icon {
+  height: 1.5rem !important;
 }

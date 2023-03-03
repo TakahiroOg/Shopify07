@@ -14,7 +14,7 @@
         "desktop_content_alignment": "center",
         "color_scheme": "background-1",
         "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
+        "stack_images_on_mobile": false,
         "show_text_below": true
       }
     },
@@ -60,9 +60,13 @@
         "5ceab50d-861e-4e16-a592-4c932a2acc39"
       ],
       "settings": {
-        "product-title": "Spring Gift Box",
-        "divider-top-margin": 20,
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
         "media_size": "medium",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
       }
