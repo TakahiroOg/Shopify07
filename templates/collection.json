@@ -1,5 +1,35 @@
 {
   "sections": {
+    "c817d9d8-461d-4934-95a2-8ff555c36df2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16772664918236__c817d9d8-461d-4934-95a2-8ff555c36df2-1677858171c33802c4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Our Homeware Selection<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16772664918236__c817d9d8-461d-4934-95a2-8ff555c36df2-1677858171c33802c4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16772664918236__c817d9d8-461d-4934-95a2-8ff555c36df2-1677858171c33802c4-0",
+        "template--16772664918236__c817d9d8-461d-4934-95a2-8ff555c36df2-1677858171c33802c4-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 28,
+        "padding_bottom": 0
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -20,6 +50,7 @@
     }
   },
   "order": [
+    "c817d9d8-461d-4934-95a2-8ff555c36df2",
     "product-grid"
   ]
 }
