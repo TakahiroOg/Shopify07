@@ -60,13 +60,9 @@
         "5ceab50d-861e-4e16-a592-4c932a2acc39"
       ],
       "settings": {
-        "enable_sticky_info": true,
-        "media_position": "left",
-        "gallery_layout": "thumbnail_slider",
+        "product-title": "Spring Gift Box",
+        "divider-top-margin": 20,
         "media_size": "medium",
-        "mobile_thumbnails": "show",
-        "hide_variants": false,
-        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 12
       }
