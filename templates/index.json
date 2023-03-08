@@ -59,7 +59,7 @@
         "1657347865ec85499e-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Mizu Japan offers you not only the most exquisite Japanese confectionery but delightful lifestyle goods as well.<br\/>Your personal shopper curates each individual gift box to order to guarantee the very finest selection and presentation.<\/p>"
+            "text": "<p>Mizu Japan offers you not only the most exquisite Japanese lifestyle goods but the finest confectionery gift boxes as well.<\/p>"
           }
         }
       },
@@ -82,14 +82,14 @@
         "template--16772665114844__6e9a7658-3bc7-4475-99a2-b65fb7864424-1677852714f6525db5-0": {
           "type": "heading",
           "settings": {
-            "heading": "A Fresh Start",
+            "heading": "Homeware",
             "heading_size": "h1"
           }
         },
         "template--16772665114844__6e9a7658-3bc7-4475-99a2-b65fb7864424-1677852714f6525db5-1": {
           "type": "text",
           "settings": {
-            "text": "<p>From simple rituals to special occasions, our marketplace has the perfect finds to elevate the everyday.<\/p>",
+            "text": "<p>Browse our extensive collection of handcrafted authentic Japanese ceramics<\/p>",
             "text_style": "body"
           }
         },
