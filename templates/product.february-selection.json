@@ -64,7 +64,13 @@
         "divider-top-margin": 20,
         "media_size": "medium",
         "padding_top": 36,
-        "padding_bottom": 12
+        "padding_bottom": 12,
+        "enable_sticky_info": true,
+        "media_position": "left",
+        "gallery_layout": "thumbnail_slider",
+        "mobile_thumbnails": "show",
+        "hide_variants": false,
+        "enable_video_looping": false
       }
     },
     "add-to-cart": {
