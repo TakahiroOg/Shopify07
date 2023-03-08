@@ -10,7 +10,8 @@
 }
 
 /* Header Start */
-ul.list-menu.list-menu--inline li a {
+ul.list-menu.list-menu--inline li a,
+.list-menu__item.focus-inset {
   font-size: 18px;
   font-weight: 500;
 }
