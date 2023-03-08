@@ -13,7 +13,7 @@
         "template--16772664918236__c817d9d8-461d-4934-95a2-8ff555c36df2-1677858171c33802c4-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+            "text": "<p>Welcome to our collection of exquisite Japanese homeware. Each piece in our collection is carefully selected to showcase the beauty and simplicity of Japanese design. Our homeware items are not only functional but also stylish, making them the perfect addition to any home.<br\/><\/p>"
           }
         }
       },
@@ -27,7 +27,7 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 28,
-        "padding_bottom": 0
+        "padding_bottom": 28
       }
     },
     "product-grid": {
