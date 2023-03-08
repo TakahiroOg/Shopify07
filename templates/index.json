@@ -121,6 +121,51 @@
         "padding_bottom": 24
       }
     },
+    "9b7d2462-cab9-4485-990c-8df42a6a4310": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16772665114844__9b7d2462-cab9-4485-990c-8df42a6a4310-1678273539f50bc2cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Gift Boxes",
+            "heading_size": "h1"
+          }
+        },
+        "template--16772665114844__9b7d2462-cab9-4485-990c-8df42a6a4310-1678273539f50bc2cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Browse our hand-curated gift boxes, which include exclusive Japanese items.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16772665114844__9b7d2462-cab9-4485-990c-8df42a6a4310-1678273539f50bc2cb-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "SHOP GIFT BOXES",
+            "button_link": "shopify:\/\/collections\/products"
+          }
+        }
+      },
+      "block_order": [
+        "template--16772665114844__9b7d2462-cab9-4485-990c-8df42a6a4310-1678273539f50bc2cb-0",
+        "template--16772665114844__9b7d2462-cab9-4485-990c-8df42a6a4310-1678273539f50bc2cb-1",
+        "template--16772665114844__9b7d2462-cab9-4485-990c-8df42a6a4310-1678273539f50bc2cb-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Image_for_homepage_for_image_with_additional_text_Section.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "center",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_center": false,
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1657347429e10a4d6b": {
       "type": "multicolumn",
       "disabled": true,
@@ -280,6 +325,7 @@
     "166045115415dafe64",
     "16573478657360bcaa",
     "6e9a7658-3bc7-4475-99a2-b65fb7864424",
+    "9b7d2462-cab9-4485-990c-8df42a6a4310",
     "1657347429e10a4d6b",
     "1659951699d2820ed5",
     "166044990474ae38b7",
