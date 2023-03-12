@@ -102,7 +102,7 @@
         "template--16772665114844__6e9a7658-3bc7-4475-99a2-b65fb7864424-1677852714f6525db5-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP HOMEWARE",
+            "button_label": "Shop Homeware",
             "button_link": "shopify:\/\/collections\/homeware"
           }
         }
