@@ -19,6 +19,7 @@
         },
         "1660451154226f9173-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "SHOP NOW",
             "button_link": "shopify:\/\/products\/spring-selection"
@@ -48,6 +49,7 @@
     },
     "16573478657360bcaa": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1657347865ec85499e-0": {
           "type": "heading",
@@ -72,8 +74,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 32,
-        "padding_bottom": 52
+        "padding_top": 8,
+        "padding_bottom": 8
       }
     },
     "6e9a7658-3bc7-4475-99a2-b65fb7864424": {
@@ -220,6 +222,7 @@
     },
     "166044990474ae38b7": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16604499048c49fa3c-0": {
           "type": "heading",

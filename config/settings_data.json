@@ -109,7 +109,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "FREE INTERNATIONAL SHIPPING ON ALL ORDERS!",
+              "text": "*FREE* Shipping on all Gift Boxes AND Homeware items when you order over $200 USD!",
               "color_scheme": "accent-1",
               "link": ""
             }
@@ -117,7 +117,7 @@
           "546d88d0-44b3-4363-ad7b-ede1f716fe6d": {
             "type": "announcement",
             "settings": {
-              "text": "Receive 10% off ALL orders for a limited time.",
+              "text": "",
               "color_scheme": "background-1",
               "link": "shopify:\/\/products\/february-如月-selection"
             }
