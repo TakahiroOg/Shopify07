@@ -45,6 +45,9 @@
   .hide-on-mobile {
     display: none !important;
   }
+  .custom-width {
+    width: 100%;
+  }
 }
 @media screen and (min-width: 750px) {
   .image-with-text__media--small {

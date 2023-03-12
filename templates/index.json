@@ -31,10 +31,13 @@
         "1660451154226f9173-1",
         "1660451154226f9173-2"
       ],
+      "custom_css": [
+        ".custom-width {width: 35%;}"
+      ],
       "settings": {
         "image": "shopify:\/\/shop_images\/top-pic-kimono.jpg",
         "mobile_image": "shopify:\/\/shop_images\/Original_uncropped_version_to_maybe_use_on_mobile_site_only_if_possible.jpg",
-        "height": "large",
+        "height": "adapt",
         "desktop_image_width": "large",
         "layout": "text_first",
         "desktop_content_position": "middle",
@@ -44,7 +47,8 @@
         "mobile_center": true,
         "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 48
+        "padding_bottom": 32,
+        "custom_width": true
       }
     },
     "16573478657360bcaa": {
@@ -120,7 +124,8 @@
         "mobile_center": false,
         "mobile_content_alignment": "center",
         "padding_top": 24,
-        "padding_bottom": 24
+        "padding_bottom": 24,
+        "custom_width": false
       }
     },
     "9b7d2462-cab9-4485-990c-8df42a6a4310": {
@@ -165,7 +170,8 @@
         "mobile_center": false,
         "mobile_content_alignment": "center",
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 36,
+        "custom_width": false
       }
     },
     "1657347429e10a4d6b": {
