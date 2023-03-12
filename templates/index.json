@@ -148,8 +148,8 @@
         "template--16772665114844__9b7d2462-cab9-4485-990c-8df42a6a4310-1678273539f50bc2cb-2": {
           "type": "button",
           "settings": {
-            "button_label": "SHOP GIFT BOXES",
-            "button_link": "shopify:\/\/collections\/products"
+            "button_label": "Shop Gift Box",
+            "button_link": "shopify:\/\/products\/spring-selection"
           }
         }
       },
